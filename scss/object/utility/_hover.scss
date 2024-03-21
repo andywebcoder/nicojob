@@ -1,0 +1,81 @@
+@use "../../foundation/variables" as v;
+
+.hover {
+//     &-opacity {
+//         transition: .3s all;
+//         &:hover {
+//             opacity: .8;
+//         }
+//     }
+// 
+//     &-scale {
+//         div {
+//             > img {
+//                 transition: .3s all;
+//             }
+//         }
+// 
+//         &:hover {
+//             div {
+//                 img {
+//                     transform: scale(1.05, 1.05);
+//                     opacity: .8;
+//                 }
+//             }
+// 
+//             figcaption {
+//                 opacity: .8;
+//             }
+//         }
+// 
+//         div {
+//             border-radius: 8px;
+//             overflow: hidden;
+// 
+//             .scale {
+//                 vertical-align: top;
+//                 transition: .3s all;
+//             }
+//         }
+// 
+//         figcaption {
+//             padding: 8px 0;
+//             text-align: center;
+//             transition: .3s all;
+//         }
+// 
+//         figure {
+//             img {
+//                 transition: .3s all;
+//                 position: relative;
+//                 left: 0;
+//             }
+//         }
+// 
+//         &:hover {
+//             figure {
+//                 img {
+//                     opacity: .8;
+//                     left: 4px;
+//                 }
+//             }
+//         }
+//     }
+// 
+//     &-arrow {
+//         transition: .3s all;
+// 
+//         img {
+//             transition: .3s all;
+//             position: relative;
+//             left: 0;
+//         }
+// 
+//         &:hover {
+//             img {
+//                 opacity: .8;
+//                 left: 10px;
+//             }
+//         }
+//     }
+}

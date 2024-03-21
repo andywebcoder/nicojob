@@ -1,0 +1,30 @@
+@use'../../foundation/variables' as v;
+
+.breadcrumbs {
+    display: none;
+    width: min(calc(100% - 32px), 1080px);
+    height: 36px;
+    line-height: 36px;
+    gap: 8px;
+    font-size: 12px;
+    margin: 0 auto;
+
+    @include v.tab {
+        display: flex;
+        align-items: center;
+    }
+
+    &-wrap {
+        // background-color: v.$base-gray;
+    }
+
+    &-arrow {
+        content: "";
+        // background: url("/wp-content/themes/citymobile/assets/img/icon/arrow-down.svg");
+        background-size: cover;
+        display: block;
+        width: 16px;
+        height: 16px;
+        transform: rotate(-90deg);
+    }
+}

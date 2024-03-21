@@ -1,0 +1,117 @@
+@use'variables' as v;
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+/*ベースとしてフォントはNoto_Sans_Jpを読み込ませる*/
+body {
+    font-family: v.$Noto_Sans_Jp;
+    font-weight: 700;
+    color: v.$base-black;
+    line-height: 1.6;
+}
+
+
+
+// コンテナ幅は両サイドに16pxの余白がついて、max1000pxまででストップします。
+.container {
+    width: min(calc(100% - 15px), 1000px);
+    margin: 0 auto;
+}
+
+.section-padding {
+    padding: 40px 0;
+
+    @include v.tab {
+        padding: 60px 0;
+    }
+
+    @include v.lt {
+        padding: 120px 0;
+    }
+}
+
+.section-padding_top {
+    padding: 40px 0 0;
+
+    @include v.tab {
+        padding: 60px 0 0;
+    }
+
+    @include v.lt {
+        padding: 120px 0 0;
+    }
+}
+
+.section-padding_bottom {
+    padding: 0 0 40px;
+
+    @include v.tab {
+        padding:  0 0 60px;
+    }
+
+    @include v.lt {
+        padding:  0 0 120px;
+    }
+}
+/*デフォルトのテキストリンクカラーを指定する*/
+a {
+    text-decoration: none;
+    color: v.$base-blue;
+
+}
+
+address {
+    font-style: normal;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: v.$base-black;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+
+    @include v.tab {
+        font-size: 24px;
+    }
+
+    @include v.lt {
+        font-size: 32px;
+    }
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+
+    @include v.tab {
+        font-size: 20px;
+    }
+
+    @include v.lt {
+        font-size: 28px;
+    }
+}
+
+@include v.tab {
+    a[href^="tel:"] {
+        pointer-events: none;
+    }
+}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}

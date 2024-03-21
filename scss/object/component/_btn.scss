@@ -1,0 +1,107 @@
+// @use "../../foundation/variables" as v;
+// 
+// .btn {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: space-between;
+//     border: 1px solid v.$border-light;
+//     background-color: v.$base-white;
+//     transition: all .3s;
+//     cursor: pointer;
+//     width: min(100%, 350px);
+//     padding: 10px 12px;
+// 
+//     @include v.tab {
+//         padding: 20px 24px;
+//     }
+// 
+//     &:hover {
+//         opacity: 0.8;
+//     }
+// 
+//     span {
+//         font-weight: bold;
+//         color: v.$text-dark;
+//         font-size: 14px;
+// 
+//         @include v.tab {
+//             font-size: 16px;
+//         }
+//     }
+// 
+//     img {
+//         width: 15px;
+//     }
+// 
+//     &-submit {
+//         justify-content: center;
+//         background-color: v.$main-blue;
+//         color: v.$base-white;
+//         margin: 0 auto;
+//         line-height: 50px;
+//         height: 50px;
+//         padding: 16px 24px;
+//         width: min(80%, 420px);
+// 
+//         @include v.tab {
+//             line-height: 60px;
+//             height: 60px;
+//         }
+// 
+//         &:hover {
+//             opacity: .8;
+//         }
+//     }
+// 
+//     &-pink {
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         gap: 12px;
+//         color: v.$base-white;
+//         height: 58px;
+//         line-height: 58px;
+//         background-color: v.$pink;
+//         border: 2px solid v.$base-white;
+//         box-sizing: border-box;
+//         margin: auto;
+//         font-size: 16px;
+//         font-weight: 600;
+//         text-align: center;
+//         transition: all .3s;
+//         
+// 
+//         &:hover {
+//             background-color: v.$base-white;
+//             border-color: v.$pink;
+//             color: v.$pink;           
+//             &::before,img {
+//                 filter: v.$filter-pink;
+//             }
+//         }
+// 
+//         @media screen and (max-width: 374px) {
+//             width: 280px;
+//         }
+// 
+//         &::before {
+//             content: "";
+//             display: inline-block;
+//             width: 24px;
+//             height: 24px;
+//             filter: v.$filter-base-white;
+//             background-size: contain;
+//             background-position: center;
+//             background-repeat: no-repeat;
+//             transition: all .3s;
+//         }
+// 
+//         img {
+//             width: 24px;
+//             height: 24px;
+//             filter: v.$filter-base-white;
+//             transition: all .3s;
+//         }
+//     }
+// }

@@ -1,0 +1,65 @@
+//カラー
+//Brand Color
+
+$base-black:#000000;
+$base-white: #FFFFFF;
+$base-blue: #1A7AB1;
+
+
+$text-sub-black:#000203;
+$text-title-black:#090F15;
+$text-blue:#2E83C1;
+$text-orange:#FF8955;
+$text-red:#FD0202;
+
+$back-blue: #36B6FF;
+$back-lblue:#F0F9FC;
+
+$num-blue:#3284C1;
+
+$border-blue: #4280BD;
+
+//フォント
+$Noto_Sans_Jp : 'Noto Sans JP',
+"Helvetica Neue",
+"Helvetica",
+"Hiragino Sans",
+"Hiragino Kaku Gothic ProN",
+"Arial",
+"Yu Gothic",
+"Meiryo",
+sans-serif;
+
+$YuGo :'Yu Gothic', 
+sans-serif;
+
+//メディアクエリ
+$sp: 767px;
+$tab: 768px;
+$lt: 1024px;
+$pc: 1280px;
+
+
+@mixin pc {
+    @media (min-width: ($pc)) {
+        @content;
+    }
+}
+
+@mixin lt {
+    @media (min-width: ($lt)) {
+        @content;
+    }
+}
+
+@mixin tab {
+    @media (min-width: ($tab)) {
+        @content;
+    }
+}
+
+@mixin sp {
+    @media (max-width: ($sp)) {
+        @content;
+    }
+}

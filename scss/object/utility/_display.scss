@@ -1,0 +1,24 @@
+@use "../../foundation/variables" as v;
+
+// 共通
+
+
+.display-visible {
+    &_sp {
+        @include v.tab {
+            display: none;
+        }
+    }
+    &_tab {
+        @include v.lt {
+            display: none;
+        }
+    }
+    &_lt {       
+
+        @include v.pc {
+            display: none;
+        }
+    }
+}
+
