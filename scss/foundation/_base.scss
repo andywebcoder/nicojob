@@ -17,7 +17,11 @@ body {
 
 // コンテナ幅は両サイドに16pxの余白がついて、max1000pxまででストップします。
 .container {
-    width: min(calc(100% - 15px), 1000px);
+    width: min(calc(100% - 30px), 1000px);
+    margin: 0 auto;
+}
+.container-table {
+    width: min(100%, 1000px);
     margin: 0 auto;
 }
 

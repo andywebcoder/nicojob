@@ -18,17 +18,24 @@
 
 .label-blue{
     background-color: v.$back-blue;
-    width: 442px;
+    width: 345px;
     border-radius: 13px;
     margin: 0 auto;
     padding: 10px 0;
     position: relative;
     margin-bottom: 12px;
+    z-index: 2;
+
+    @include v.tab{
+        width: 442px;
+        border-radius: 13px;
+        padding: 10px 0;
+    }
 
     &::after{
         position: absolute;
         content: "";
-        bottom: -25px;
+        bottom: -10px;
         left: 50%;
         transform: translateX(-50%);
         width: 0;
@@ -38,13 +45,19 @@
         border-left: 15px solid transparent;
         border-top: 26px solid v.$back-blue;
         border-bottom: 0;
+        z-index: -1;
     }
     p{
         text-align: center;
         color: v.$base-white;
-        font-size: 20px;
-        // font-family: ;
-        line-height: calc(27/20);
+        font-family: v.$YuGo;
+        font-size: 18px;
+        line-height: calc(24/18);
+
+        @include v.tab{
+            font-size: 20px;
+            line-height: calc(27/20);
+        }
     }
 }
 
@@ -67,7 +80,7 @@
     &:after{
         position: absolute;
         content: "";
-        top: 35%;
+        top: 20%;
     }
     &:before{
         border-right: 2px solid v.$text-orange;
@@ -83,9 +96,14 @@
     }
 }
 .lable-official_num{
-    font-size: 22px;
-    line-height: calc(32/22);
+    font-size: 20px;
+    line-height: calc(29/20);
     text-align: center;
+
+    @include v.tab{
+        font-size: 22px;
+        line-height: calc(32/22);
+    }
 }
 
 .lable-official_link{

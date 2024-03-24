@@ -1,16 +1,410 @@
 @use "../../foundation/variables" as v;
 
 .top-fv{
-    background-image: url(/wp-content/themes/nicojob/assets/img/top/fv_img.jpg);
+    background-image: url(/wp-content/themes/nicojob/assets/img/top/fv_spimg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    text-align: center;
-    padding: 260px 0 295px 0;
+    padding: 20px 0 235px 0;
+
+    @include v.tab{
+        background-image: url(/wp-content/themes/nicojob/assets/img/top/fv_img.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: left;
+        padding: 40px 0 65px 0;
+        position: relative;
+    }
+
+}
+.top-fv_itemFlex{
+    gap: 7px;
+    @include v.tab{
+        gap: 10px;
+    }
+}
+.top-fv_item{
+    border: 1px solid v.$base-blue;
+    color: v.$base-blue;
+    background-color: v.$base-white;
+    font-size: 15px;
+    line-height: calc(21/15);
+    padding: 5px 20px 8px 18px;
+    @include v.tab{
+        padding: 6px 30px 7px 26px;
+        font-size: 18px;
+        line-height: calc(26/18);
+    }
+}
+.top-fv_desc{
+    font-size: 20px;
+    line-height: calc(29/20);
+    letter-spacing: 0.004em;
+    @include v.tab{
+        font-size: 30px;
+        line-height: calc(44/30);
+    }
+}
+.top-fv_descBlue{
+    color: v.$base-blue;    
     position: relative;
+    &::before,
+    &:after{
+        position: absolute;
+        content: "";
+    }
+    &::before{
+        border-bottom: 2px solid v.$base-blue;
+        bottom: -8px;
+        width: 140px 
+    }
+    &:after{
+        bottom: -14px;
+        right: -7px;
+        border-bottom: 2px solid v.$base-blue;
+        width: 20px;
+        transform: rotate(45deg);
+    }
+}
+.top-fv_descSmall{
+    color: v.$base-black;
+    font-size: 16px;
+    line-height: calc(24/16);
+    position: relative;
+
+    @include v.tab{
+        font-size: 24px;
+        line-height: calc(35/24);
+    }
+
+    &:after{
+        position: absolute;
+        content: "";
+        border-bottom: 2px solid v.$base-blue;
+        bottom: -11px;
+        left: 0;
+        width: 250px;
+    }
+}
+.top-fv_descEng{
+    color: v.$base-blue;
+    font-size: 28px;
+    line-height: calc(40/28);
+    letter-spacing: 0;
+    @include v.tab{
+        font-size: 42px;     
+        line-height: calc(61/41);
+        padding-left: 5px;
+    }
+}
+.top-fv_subTitle{
+    font-size: 20px;
+    line-height: calc(34/20);
+    letter-spacing: 0.05em;
+    display: inline-block;
+    color: v.$text-orange;
+    background: linear-gradient(transparent 70%, rgba(255, 137, 85, 0.3) 0);
+    padding-top: 20px;
+
+    @include v.tab{
+        padding-top: 30px;
+        font-size: 30px;
+        line-height: calc(53/30);
+    }
+}
+.top-fv_title{
+    font-size: 44px;
+    line-height: calc(59/44);
+
+    @include v.tab{
+        font-size: 94px;
+        line-height: calc(119/94);    
+    }
+}
+.top-fv_titleFlex{
+    gap: 7px;
+    @include v.tab{
+        gap: 20px;
+    }
+
+}
+.top-fv_titleFrame{
+    font-size: 20px;
+    line-height: calc(26/20);
+    letter-spacing: 0.03em;
+    background-color: v.$base-blue;
+    color: v.$base-white;
+    padding: 5px 15px 5px 10px;
+
+    @include v.tab{
+        font-size: 34px;
+        line-height: calc(46/30);
+        padding: 5px 23px 5px 19px;
+    }
+}
+.top-fv_titleBlue{
+    font-size: 26px;
+    line-height: calc(39/26);
+    color: v.$base-blue;
+    letter-spacing: 0.03em;
+
+    @include v.tab{
+        font-size: 50px;
+        line-height: calc(67/30);
+    }
+}
+.top-fv_titleNum{
+    color: v.$text-orange;
+    font-size: 94px;
+    line-height: calc(45/94);
+
+    @include v.tab{
+        font-size: 177px;
+        line-height: calc(84/177);
+    }
+}
+.top-fv_titleOrange{
+    color: v.$text-orange;
 }
 
+table , td, th {
+	border: 1px solid #595959;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 3px;
+	width: 30px;
+	height: 25px;
+}
+th {
+	background: #f0e6cc;
+}
+.even {
+	background: #fbf8f0;
+}
+.odd {
+	background: #fefcf9;
+}
 
+.top-table{
+    margin: -60px auto 105px 0;
+    td{
+        vertical-align: middle;
+    }
+}
+.top-tables{
+    position: relative;
+    z-index: 2;
+}
+.container-table_item{
+    text-align: center;
+    color: v.$base-white;
+    font-family: v.$YuGo;
+    font-size: 12px;
+    line-height: calc(16/12);
+    border: 1px solid v.$back-blue;
+    border-bottom: 1px solid v.$base-white;
+    width: 60px;
+
+    @include v.tab{
+        width: 150px;
+        font-size: 20px;
+        line-height: calc(27/20);
+    }
+}
+.container-table_itemLast{
+    border-bottom: 1px solid v.$back-blue;
+}
+.container-table_fourth,
+.container-table_sixth{
+    padding: 20px 0;
+}
+.container-table_fifth{
+    padding: 30px 0;
+}
+.container-table_white{
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-right: 1px solid v.$back-blue;
+}
+.container-table_blue{
+    background-color: v.$back-blue;
+}
+.container-table_head{
+    border: 1px solid v.$back-blue;
+    padding: 15px 0 20px 0;
+    background-color: v.$base-white;
+    text-align: center;
+    img{
+        width: 230px;
+    }
+}
+.container-table_head1{
+    position: relative;
+}
+.container-table_headNoImg{
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    width: 60px;
+
+    @include v.tab{
+        top: -20%;
+        left: 2%;
+        width: 85px;
+    }
+}
+.container-table_column1{
+    width: 108px;
+    @include v.tab{
+        width: 311px;
+    }
+}
+.container-table_column2{
+    width: 108px;
+    @include v.tab{
+        width: 272px;
+    }
+}
+.container-table_column3{
+    width: 98px;
+    @include v.tab{
+        width: 272px;
+    }
+}
+.container-table_headImg{
+    width: 82px;
+    margin: 0 auto;
+    @include v.tab{
+        width: 195px;
+        padding-right: 15px;
+        margin-left: auto;    
+    }
+
+}
+.container-table_line{
+    position: relative;
+
+    &::after{
+        position: absolute;
+        content: "";
+        border: 4px solid v.$text-orange;
+        top: -1px;
+        left: -1px;
+        width: 101%;
+        height: 616px;
+        z-index: 2;
+
+        @include v.tab{
+            height: 745px;
+        }
+    }
+}
+
+.container-table_headlink{
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    color: v.$base-black;
+    font-weight: 500;
+    line-height: calc(18/12);
+    font-size: 12px;
+
+    @include v.tab{
+        font-size: 20px;
+        line-height: calc(30/20);
+    }
+}
+.container-table_lblue{
+    background-color: v.$back-lblue;
+}
+.container-table_text{
+    text-align: center;
+    color: v.$base-black;
+    font-family: v.$YuGo;
+    font-size: 11px;
+    line-height: calc(16/11);
+    border: 1px solid v.$back-blue;
+    padding: 10px 0;
+
+    @include v.tab{
+        font-size: 20px;
+        line-height: calc(30/20);
+        padding: 20px 0;
+    }
+}
+.container-table_circleText{
+    font-family: v.$YuGo;
+    font-size: 14px;
+    line-height: calc(19/14);
+    text-align: center;
+    border: 1px solid v.$back-blue;
+    position: relative;
+
+    @include v.tab{
+        font-size: 18px;
+        line-height: calc(24/18);
+    }
+
+    img{
+        width: 60px;
+    }
+    p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+}
+.container-table_reviews{
+    text-align: center;
+    border: 1px solid v.$back-blue;
+    img{
+        width: 80px;
+    }
+    a{
+        display: block;
+        font-size: 15px;
+        line-height: calc(20/15);
+        color: v.$text-red;
+        text-decoration: underline;
+        @include v.tab{
+            display: inline-block;
+            font-size: 20px;
+            line-height: calc(27/20);
+        }
+    }
+}
+.container-table_link{
+    border: 1px solid v.$back-blue;
+    
+    a{
+        display: block;
+        margin:  0 auto;
+        width: 70px;
+        text-align: center;
+        background-color: v.$text-orange;
+        border-radius: 6px;
+        color: v.$base-white;
+        font-family: v.$YuGo;
+        font-size: 14px;
+        line-height: calc(18/14);
+        padding: 7px 0;
+        box-shadow: 0px 3px 6px 6px 0px rgba(0, 0, 0, 0.16);
+
+        @include v.tab{
+            width: 210px;
+            font-size: 21px;
+            line-height: calc(28/21);
+            border-radius: 10px;
+            padding: 15px 0;
+        }
+    }
+}
 
 
 
@@ -21,17 +415,28 @@
 .top-site_official{
     text-align: center;
     padding-bottom: 40px;
+    position: relative;
 }
 .top-site_lists{
     list-style-type: disc;
-    list-style: inside;
+    padding-left: 20px;
     color: v.$base-blue;
     padding-bottom: 35px;
+
+    @include v.tab{
+        padding-bottom: 35px;
+    }
 }
 .top-site_list{
-    font-size: 18px;
-    line-height: calc(26/18);
-    padding-bottom: 7px;
+    font-size: 16px;
+    line-height: calc(24/16);
+    padding-bottom: 2px;
+
+    @include v.tab{
+        font-size: 18px;
+        line-height: calc(26/18);
+        padding-bottom: 7px;    
+    }
 
     &:last-of-type{
         padding-bottom: 0;
@@ -50,27 +455,54 @@
     }
 }
 .top-site_item--flex{
-    gap: 35px;
     align-items: flex-start;
-    padding: 25px 40px 20px 40px;
+    gap: 10px;
+    padding: 20px 15px 20px 15px;
+
+    @include v.tab{
+        flex-direction: row;
+        gap: 40px;
+        padding: 25px 40px 20px 40px;
+    }
 }
 .top-site_item--img{
-    width: 324px;
+    width: 160px;
+    margin: 0 auto;
+    @include v.tab{
+        width: 324px;
+    }
+
 }
 .top-site_box{
     
 }
 .top-site_flex{
     background-color: v.$back-lblue;
+    position: relative;
+    padding: 35px 0 8px 0;
+
+    @include v.tab{
+        padding-top: 0;
+    }
 }
 .top-site_blue{
     color: v.$base-white;
-    font-size: 18px;
-    line-height: calc(26/18);
-    padding: 30px 24px 30px 16px;
+    font-size: 16px;
+    line-height: calc(32/16);
+    padding: 6px 18px 6px 15px;
     background-color: v.$base-blue;
-    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
     text-align: center;
+    position: absolute;
+    top: -20px;
+
+    @include v.tab{
+        font-size: 18px;
+        line-height: calc(26/18);
+        padding: 30px 24px 30px 16px;
+        clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+        position: static;
+    }
 }
 .top-site_lblue{
     flex: 1;
@@ -92,35 +524,26 @@
 .top-site_review{
     display: inline-block;
     margin-left: auto;
-    border-bottom: 1px solid v.$base-blue;
-    position: relative;
     padding-right: 5px;
+    position: relative;
+    padding-top: 10px;
 
-    &:before,
-    &:after{
+    
+    @include v.tab{
         position: absolute;
-        content: "";
+        right: 45px;
+        bottom: 40px;
+        padding-top: 0;
     }
-
-    &:before{
-        top: 20%;
-        right: -20px;
+    p{
+        border-bottom: 1px solid v.$base-blue;
+    }
+    img{
         width: 17px;
-        height: 17px;
-        border-radius: 50%;
-        background-color: v.$base-blue;
     }
-    &:after{
-        top: 34%;
-        right: -16px;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-top: 5px solid transparent;
-        border-bottom: 5px solid transparent;
-        border-left: 6px solid v.$base-white;
-        border-right: 0;
-    }
+}
+.top-site_review--flex{
+    gap: 10px;
 }
 
 
@@ -128,7 +551,6 @@
     padding: 90px 0 100px 0;
 }
 .top-flow_step{
-    // height: 132px;
     padding-bottom: 55px;
 }
 .top-flow_step--flex{
@@ -137,44 +559,70 @@
     justify-content: center;
 }
 .top-flow_item{
-    width: 245px;
-    // height: 57px;
+    // width: 168px;
+    width: calc((100% / 2) - (168px / 2));
+    height: 57px;
+
+    @include v.tab{
+        // width: 245px;
+        width: calc((100% / 3) - (245px / 3));
+        height: 57px;
+    }
 }
 .top-flow_item--flex{
     align-items: flex-end;
     border-bottom: 1px solid v.$num-blue;
+    height: 57px;
     padding-bottom: 10px;
 }
 .top-flow_item--nums{
     text-align: center;
 }
 .top-flow_item--step{
-    // font-family: ;
+    font-family: v.$YuGo;
     font-size: 11px;
-    line-height: calc(98/11);
+    line-height: calc(80/11);
     color: v.$text-blue;
+
+    @include v.tab{
+        line-height: calc(98/11);
+    }
 }
 .top-flow_item--num{
-    // font-family: ;
-    font-size: 38px;
-    line-height: calc(38/51);
+    font-family: v.$YuGo;
+    font-size: 32px;
+    line-height: calc(43/32);
     color: v.$text-blue;
     opacity: 25%;
     margin-top: -40px;
+
+    @include v.tab{
+        font-size: 38px;
+        line-height: calc(38/51);
+    }
 }
 .top-flow_item--textFlex{
     justify-content: center;
     flex: 1;
-    gap: 20px;
+    gap: 10px;
+    @include v.tab{
+        gap: 20px;
+    }
 }
 .top-flow_item--text{
-    // font-family: ;
-    font-size: 18px;
-    line-height: calc(24/18);
+    font-family: v.$YuGo;
+    font-size: 16px;
+    line-height: calc(21/16);
     color: v.$base-black;
     text-align: center;
+
+    @include v.tab{
+        font-size: 18px;
+        line-height: calc(24/18);
+    }
 }
 .top-flow_circle{
+    display: inline-block;
     width: 18px;
     height: 18px;
     border: 1px solid v.$base-black;
@@ -207,12 +655,12 @@
 
 }
 .top-flow_detail--step{
-    // font-family: ;
+    font-family: v.$YuGo;
     line-height: calc(98/18);
     color: v.$text-blue;
 }
 .top-flow_detail--num{
-    // font-family: ;
+    font-family: v.$YuGo;
     font-size: 57px;
     line-height: calc(76/57);
     color: v.$num-blue;
@@ -228,6 +676,10 @@
 }
 .top-flow_detailItemFlex{
     gap: 30px;
+
+    @include v.tab{
+        flex-direction: row;
+    }
 }
 .top-flow_detail--blueText{
     color: v.$base-white;
@@ -238,17 +690,24 @@
     width: 227px;
     padding: 4px 0;
     position: absolute;
-    top: -15px;
+    top: -20px;
+    z-index: 2;
 }
 .top-flow_detail--backBlue{
-    background-color: v.$back-lblue;
-    clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
-    width: 500px;
     position: relative;
 }
-.top-flow_detail--lists{
-    // padding: 30px 20px 15px 30px;
-    padding: 36px 20px 15px 30px;
+.top-flow_detail--clip{
+    width: 345px;
+    max-width: 100%;
+    background-color: v.$back-lblue;
+    clip-path: polygon(0 1%, 100% 0%, 100% 85%, 50% 100%, 0 85%);
+    padding: 30px 15px 55px 15px;
+
+    @include v.tab{
+        width: 500px;
+        clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
+        padding: 36px 20px 15px 30px;
+    }
 }
 .top-flow_detail--list{
     gap: 20px;
@@ -272,8 +731,13 @@
 }
 .top-flow_detailItem--example{
     border: 1px solid v.$num-blue;
-    width: 480px; 
-    position: relative;   
+    width: 345px;
+    max-width: 100%;
+    position: relative;
+
+    @include v.tab{
+        width: 480px;
+    }
 }
 .top-flow_detailItem--exampleTitle{
     position: absolute;
@@ -288,7 +752,11 @@
     padding: 0 40px 5px 25px;
 }
 .top-flow_detailItem--exampleLists{
-    padding: 36px 30px 21px 40px;
+    padding: 36px 15px 18px 15px;
+
+    @include v.tab{
+        padding: 36px 30px 21px 40px;
+    }
 }
 .top-flow_detailItem--exampleList{
     gap: 20px;
@@ -310,6 +778,16 @@
     line-height: calc(30/16);
     color: v.$base-black;
 }
+.top-flow_detail--exampleText{
+    color: v.$base-black;
+    line-height: calc(24/16);
+    padding: 47px 30px 40px 40px;
+}
+.top-flow_detail--img{
+    margin: 0 auto;
+    width: 80px;
+    padding-top: 30px;
+}
 .top-flow_detailItemTextBox{
     text-align: center;
 }
@@ -322,15 +800,54 @@
         color: v.$text-orange;
     }
 }
-
+.top-flow_detailItemRightImg{
+    width: 495px;
+}
 
 .top-faq{
     background-color: v.$back-lblue;
     padding: 98px 0 130px 0;
 }
 .top-faq_item{
-    width: 800px;
+    width: 345px;
     margin: 0 auto 40px auto;
+
+    @include v.tab{
+        width: 800px;
+    }
+}
+.top-faq_qFlex--symbol{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+
+    &:before,
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        transition: transform .3s ease-in-out, top .3s ease-in-out;
+        transform: translate(-50%, -50%);
+    }
+
+    &:before {
+        border-top: solid 2px v.$base-blue;
+        left: 50%;
+        top: 50%;
+        width: 16px;
+    }
+
+    &::after {
+        border-right: solid 2px v.$base-blue;
+        height: 16px;
+        left: 50%;
+        top: 50%;
+    }
+}
+.top-faq_qFlex--symbol.open::after {
+    top: 19%;
+    transform: rotate(90deg);
 }
 .top-faq_q{
     font-size: 25px;
@@ -338,9 +855,15 @@
     color: v.$base-blue;
 }
 .top-faq_qesText{
-    font-size: 18px;
-    line-height: calc(24/18);
+    font-size: 16px;
+    line-height: calc(24/16);
     color: v.$base-blue;
+    flex: 1;
+
+    @include v.tab{
+        font-size: 18px;
+        line-height: calc(24/18);
+    }
 }
 .top-faq_qFlex{
     background-color: v.$base-white;
@@ -349,9 +872,14 @@
     align-items: flex-end;
 }
 .top-faq_a{
-    font-size: 24px;
-    line-height: calc(33/24);
+    font-size: 16px;
+    line-height: calc(26/16);
     color: v.$text-orange;
+
+    @include v.tab{
+        font-size: 24px;
+        line-height: calc(33/24);
+    }
 }
 .top-faq_aFlex{
     background-color: v.$back-lblue;

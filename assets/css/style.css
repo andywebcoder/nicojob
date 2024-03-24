@@ -410,7 +410,12 @@ body {
 }
 
 .container {
-  width: min(100% - 15px, 1000px);
+  width: min(100% - 30px, 1000px);
+  margin: 0 auto;
+}
+
+.container-table {
+  width: min(100%, 1000px);
   margin: 0 auto;
 }
 
@@ -522,7 +527,7 @@ h3 {
  * layout
  */
 main {
-  margin-top: 70px;
+  margin-top: 80px;
 }
 @media (min-width: 1024px) {
   main {
@@ -546,6 +551,14 @@ main {
 @media (min-width: 1280px) {
   .display-visible_lt {
     display: none;
+  }
+}
+.display-visible_pc {
+  display: none;
+}
+@media (min-width: 768px) {
+  .display-visible_pc {
+    display: block;
   }
 }
 
@@ -592,17 +605,25 @@ main {
 
 .label-blue {
   background-color: #36B6FF;
-  width: 442px;
+  width: 345px;
   border-radius: 13px;
   margin: 0 auto;
   padding: 10px 0;
   position: relative;
   margin-bottom: 12px;
+  z-index: 2;
+}
+@media (min-width: 768px) {
+  .label-blue {
+    width: 442px;
+    border-radius: 13px;
+    padding: 10px 0;
+  }
 }
 .label-blue::after {
   position: absolute;
   content: "";
-  bottom: -25px;
+  bottom: -10px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -613,12 +634,20 @@ main {
   border-left: 15px solid transparent;
   border-top: 26px solid #36B6FF;
   border-bottom: 0;
+  z-index: -1;
 }
 .label-blue p {
   text-align: center;
   color: #FFFFFF;
-  font-size: 20px;
-  line-height: 1.35;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-size: 18px;
+  line-height: 1.3333333333;
+}
+@media (min-width: 768px) {
+  .label-blue p {
+    font-size: 20px;
+    line-height: 1.35;
+  }
 }
 
 .lable-official {
@@ -639,7 +668,7 @@ main {
 .lable-official_text:before, .lable-official_text:after {
   position: absolute;
   content: "";
-  top: 35%;
+  top: 20%;
 }
 .lable-official_text:before {
   border-right: 2px solid #FF8955;
@@ -657,9 +686,15 @@ main {
 }
 
 .lable-official_num {
-  font-size: 22px;
-  line-height: 1.4545454545;
+  font-size: 20px;
+  line-height: 1.45;
   text-align: center;
+}
+@media (min-width: 768px) {
+  .lable-official_num {
+    font-size: 22px;
+    line-height: 1.4545454545;
+  }
 }
 
 .lable-official_link {
@@ -678,15 +713,29 @@ main {
 
 .title-h2 {
   text-align: center;
-  font-size: 39px;
-  line-height: 1.3333333333;
+  font-size: 36px;
+  line-height: 1.5;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
   color: #000000;
-  margin-bottom: 55px;
+  margin-bottom: 43px;
+}
+@media (min-width: 768px) {
+  .title-h2 {
+    font-size: 39px;
+    line-height: 1.3333333333;
+    margin-bottom: 55px;
+  }
 }
 
 .title-h2_span {
-  font-size: 32px;
-  line-height: 1.34375;
+  font-size: 28px;
+  line-height: 1.9285714286;
+}
+@media (min-width: 768px) {
+  .title-h2_span {
+    font-size: 32px;
+    line-height: 1.34375;
+  }
 }
 
 .title-h2_orange {
@@ -695,34 +744,61 @@ main {
 
 .title-h2_num {
   font-size: 52px;
-  line-height: 1.3269230769;
+  line-height: 0.962962963;
+}
+@media (min-width: 768px) {
+  .title-h2_num {
+    line-height: 1.3269230769;
+  }
 }
 
 .title-h3 {
-  padding-left: 40px;
-  font-size: 28px;
-  line-height: 1.4285714286;
+  font-size: 20px;
+  line-height: 1.45;
   color: #1A7AB1;
-  padding-bottom: 15px;
+  margin: 0 15px;
+  padding-bottom: 20px;
   border-bottom: 1px solid #1A7AB1;
   position: relative;
+}
+@media (min-width: 768px) {
+  .title-h3 {
+    padding-left: 40px;
+    font-size: 28px;
+    line-height: 1.4285714286;
+    padding-bottom: 15px;
+  }
 }
 .title-h3:after {
   position: absolute;
   content: "";
-  width: 310px;
+  width: 125px;
   border-bottom: 4px solid #1A7AB1;
   bottom: -2px;
   left: 0;
 }
+@media (min-width: 768px) {
+  .title-h3:after {
+    width: 310px;
+  }
+}
 
 .title-h4 {
-  font-size: 28px;
-  line-height: 1.4285714286;
+  font-size: 20px;
+  line-height: 1.6;
   color: #1A7AB1;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(75%, transparent), color-stop(0, rgba(255, 137, 85, 0.3)));
   background: linear-gradient(transparent 75%, rgba(255, 137, 85, 0.3) 0);
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .title-h4 {
+    font-size: 28px;
+    line-height: 1.4285714286;
+    margin-bottom: 15px;
+    text-align: left;
+  }
 }
 
 .breadcrumbs {
@@ -755,13 +831,477 @@ main {
 }
 
 .top-fv {
-  background-image: url(/wp-content/themes/nicojob/assets/img/top/fv_img.jpg);
+  background-image: url(/wp-content/themes/nicojob/assets/img/top/fv_spimg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  text-align: center;
-  padding: 260px 0 295px 0;
+  padding: 20px 0 235px 0;
+}
+@media (min-width: 768px) {
+  .top-fv {
+    background-image: url(/wp-content/themes/nicojob/assets/img/top/fv_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;
+    padding: 40px 0 65px 0;
+    position: relative;
+  }
+}
+
+.top-fv_itemFlex {
+  gap: 7px;
+}
+@media (min-width: 768px) {
+  .top-fv_itemFlex {
+    gap: 10px;
+  }
+}
+
+.top-fv_item {
+  border: 1px solid #1A7AB1;
+  color: #1A7AB1;
+  background-color: #FFFFFF;
+  font-size: 15px;
+  line-height: 1.4;
+  padding: 5px 20px 8px 18px;
+}
+@media (min-width: 768px) {
+  .top-fv_item {
+    padding: 6px 30px 7px 26px;
+    font-size: 18px;
+    line-height: 1.4444444444;
+  }
+}
+
+.top-fv_desc {
+  font-size: 20px;
+  line-height: 1.45;
+  letter-spacing: 0.004em;
+}
+@media (min-width: 768px) {
+  .top-fv_desc {
+    font-size: 30px;
+    line-height: 1.4666666667;
+  }
+}
+
+.top-fv_descBlue {
+  color: #1A7AB1;
   position: relative;
+}
+.top-fv_descBlue::before, .top-fv_descBlue:after {
+  position: absolute;
+  content: "";
+}
+.top-fv_descBlue::before {
+  border-bottom: 2px solid #1A7AB1;
+  bottom: -8px;
+  width: 140px;
+}
+.top-fv_descBlue:after {
+  bottom: -14px;
+  right: -7px;
+  border-bottom: 2px solid #1A7AB1;
+  width: 20px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.top-fv_descSmall {
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .top-fv_descSmall {
+    font-size: 24px;
+    line-height: 1.4583333333;
+  }
+}
+.top-fv_descSmall:after {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid #1A7AB1;
+  bottom: -11px;
+  left: 0;
+  width: 250px;
+}
+
+.top-fv_descEng {
+  color: #1A7AB1;
+  font-size: 28px;
+  line-height: 1.4285714286;
+  letter-spacing: 0;
+}
+@media (min-width: 768px) {
+  .top-fv_descEng {
+    font-size: 42px;
+    line-height: 1.487804878;
+    padding-left: 5px;
+  }
+}
+
+.top-fv_subTitle {
+  font-size: 20px;
+  line-height: 1.7;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  color: #FF8955;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(0, rgba(255, 137, 85, 0.3)));
+  background: linear-gradient(transparent 70%, rgba(255, 137, 85, 0.3) 0);
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  .top-fv_subTitle {
+    padding-top: 30px;
+    font-size: 30px;
+    line-height: 1.7666666667;
+  }
+}
+
+.top-fv_title {
+  font-size: 44px;
+  line-height: 1.3409090909;
+}
+@media (min-width: 768px) {
+  .top-fv_title {
+    font-size: 94px;
+    line-height: 1.2659574468;
+  }
+}
+
+.top-fv_titleFlex {
+  gap: 7px;
+}
+@media (min-width: 768px) {
+  .top-fv_titleFlex {
+    gap: 20px;
+  }
+}
+
+.top-fv_titleFrame {
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  background-color: #1A7AB1;
+  color: #FFFFFF;
+  padding: 5px 15px 5px 10px;
+}
+@media (min-width: 768px) {
+  .top-fv_titleFrame {
+    font-size: 34px;
+    line-height: 1.5333333333;
+    padding: 5px 23px 5px 19px;
+  }
+}
+
+.top-fv_titleBlue {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #1A7AB1;
+  letter-spacing: 0.03em;
+}
+@media (min-width: 768px) {
+  .top-fv_titleBlue {
+    font-size: 50px;
+    line-height: 2.2333333333;
+  }
+}
+
+.top-fv_titleNum {
+  color: #FF8955;
+  font-size: 94px;
+  line-height: 0.4787234043;
+}
+@media (min-width: 768px) {
+  .top-fv_titleNum {
+    font-size: 177px;
+    line-height: 0.4745762712;
+  }
+}
+
+.top-fv_titleOrange {
+  color: #FF8955;
+}
+
+table, td, th {
+  border: 1px solid #595959;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 3px;
+  width: 30px;
+  height: 25px;
+}
+
+th {
+  background: #f0e6cc;
+}
+
+.even {
+  background: #fbf8f0;
+}
+
+.odd {
+  background: #fefcf9;
+}
+
+.top-table {
+  margin: -60px auto 105px 0;
+}
+.top-table td {
+  vertical-align: middle;
+}
+
+.top-tables {
+  position: relative;
+  z-index: 2;
+}
+
+.container-table_item {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-size: 12px;
+  line-height: 1.3333333333;
+  border: 1px solid #36B6FF;
+  border-bottom: 1px solid #FFFFFF;
+  width: 60px;
+}
+@media (min-width: 768px) {
+  .container-table_item {
+    width: 150px;
+    font-size: 20px;
+    line-height: 1.35;
+  }
+}
+
+.container-table_itemLast {
+  border-bottom: 1px solid #36B6FF;
+}
+
+.container-table_fourth,
+.container-table_sixth {
+  padding: 20px 0;
+}
+
+.container-table_fifth {
+  padding: 30px 0;
+}
+
+.container-table_white {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-right: 1px solid #36B6FF;
+}
+
+.container-table_blue {
+  background-color: #36B6FF;
+}
+
+.container-table_head {
+  border: 1px solid #36B6FF;
+  padding: 15px 0 20px 0;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+.container-table_head img {
+  width: 230px;
+}
+
+.container-table_head1 {
+  position: relative;
+}
+
+.container-table_headNoImg {
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 5;
+  width: 60px;
+}
+@media (min-width: 768px) {
+  .container-table_headNoImg {
+    top: -20%;
+    left: 2%;
+    width: 85px;
+  }
+}
+
+.container-table_column1 {
+  width: 108px;
+}
+@media (min-width: 768px) {
+  .container-table_column1 {
+    width: 311px;
+  }
+}
+
+.container-table_column2 {
+  width: 108px;
+}
+@media (min-width: 768px) {
+  .container-table_column2 {
+    width: 272px;
+  }
+}
+
+.container-table_column3 {
+  width: 98px;
+}
+@media (min-width: 768px) {
+  .container-table_column3 {
+    width: 272px;
+  }
+}
+
+.container-table_headImg {
+  width: 82px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .container-table_headImg {
+    width: 195px;
+    padding-right: 15px;
+    margin-left: auto;
+  }
+}
+
+.container-table_line {
+  position: relative;
+}
+.container-table_line::after {
+  position: absolute;
+  content: "";
+  border: 4px solid #FF8955;
+  top: -1px;
+  left: -1px;
+  width: 101%;
+  height: 616px;
+  z-index: 2;
+}
+@media (min-width: 768px) {
+  .container-table_line::after {
+    height: 745px;
+  }
+}
+
+.container-table_headlink {
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+  color: #000000;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .container-table_headlink {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
+
+.container-table_lblue {
+  background-color: #F0F9FC;
+}
+
+.container-table_text {
+  text-align: center;
+  color: #000000;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-size: 11px;
+  line-height: 1.4545454545;
+  border: 1px solid #36B6FF;
+  padding: 10px 0;
+}
+@media (min-width: 768px) {
+  .container-table_text {
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 20px 0;
+  }
+}
+
+.container-table_circleText {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-size: 14px;
+  line-height: 1.3571428571;
+  text-align: center;
+  border: 1px solid #36B6FF;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .container-table_circleText {
+    font-size: 18px;
+    line-height: 1.3333333333;
+  }
+}
+.container-table_circleText img {
+  width: 60px;
+}
+.container-table_circleText p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container-table_reviews {
+  text-align: center;
+  border: 1px solid #36B6FF;
+}
+.container-table_reviews img {
+  width: 80px;
+}
+.container-table_reviews a {
+  display: block;
+  font-size: 15px;
+  line-height: 1.3333333333;
+  color: #FD0202;
+  text-decoration: underline;
+}
+@media (min-width: 768px) {
+  .container-table_reviews a {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 1.35;
+  }
+}
+
+.container-table_link {
+  border: 1px solid #36B6FF;
+}
+.container-table_link a {
+  display: block;
+  margin: 0 auto;
+  width: 70px;
+  text-align: center;
+  background-color: #FF8955;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-size: 14px;
+  line-height: 1.2857142857;
+  padding: 7px 0;
+  -webkit-box-shadow: 0px 3px 6px 6px 0px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px 6px 0px rgba(0, 0, 0, 0.16);
+}
+@media (min-width: 768px) {
+  .container-table_link a {
+    width: 210px;
+    font-size: 21px;
+    line-height: 1.3333333333;
+    border-radius: 10px;
+    padding: 15px 0;
+  }
 }
 
 .top-site {
@@ -772,19 +1312,32 @@ main {
 .top-site_official {
   text-align: center;
   padding-bottom: 40px;
+  position: relative;
 }
 
 .top-site_lists {
   list-style-type: disc;
-  list-style: inside;
+  padding-left: 20px;
   color: #1A7AB1;
   padding-bottom: 35px;
 }
+@media (min-width: 768px) {
+  .top-site_lists {
+    padding-bottom: 35px;
+  }
+}
 
 .top-site_list {
-  font-size: 18px;
-  line-height: 1.4444444444;
-  padding-bottom: 7px;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-bottom: 2px;
+}
+@media (min-width: 768px) {
+  .top-site_list {
+    font-size: 18px;
+    line-height: 1.4444444444;
+    padding-bottom: 7px;
+  }
 }
 .top-site_list:last-of-type {
   padding-bottom: 0;
@@ -803,30 +1356,65 @@ main {
 }
 
 .top-site_item--flex {
-  gap: 35px;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  padding: 25px 40px 20px 40px;
+  gap: 10px;
+  padding: 20px 15px 20px 15px;
+}
+@media (min-width: 768px) {
+  .top-site_item--flex {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 40px;
+    padding: 25px 40px 20px 40px;
+  }
 }
 
 .top-site_item--img {
-  width: 324px;
+  width: 160px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .top-site_item--img {
+    width: 324px;
+  }
 }
 
 .top-site_flex {
   background-color: #F0F9FC;
+  position: relative;
+  padding: 35px 0 8px 0;
+}
+@media (min-width: 768px) {
+  .top-site_flex {
+    padding-top: 0;
+  }
 }
 
 .top-site_blue {
   color: #FFFFFF;
-  font-size: 18px;
-  line-height: 1.4444444444;
-  padding: 30px 24px 30px 16px;
+  font-size: 16px;
+  line-height: 2;
+  padding: 6px 18px 6px 15px;
   background-color: #1A7AB1;
-  -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-          clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
   text-align: center;
+  position: absolute;
+  top: -20px;
+}
+@media (min-width: 768px) {
+  .top-site_blue {
+    font-size: 18px;
+    line-height: 1.4444444444;
+    padding: 30px 24px 30px 16px;
+    -webkit-clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+    position: static;
+  }
 }
 
 .top-site_lblue {
@@ -852,32 +1440,27 @@ main {
 .top-site_review {
   display: inline-block;
   margin-left: auto;
-  border-bottom: 1px solid #1A7AB1;
-  position: relative;
   padding-right: 5px;
+  position: relative;
+  padding-top: 10px;
 }
-.top-site_review:before, .top-site_review:after {
-  position: absolute;
-  content: "";
+@media (min-width: 768px) {
+  .top-site_review {
+    position: absolute;
+    right: 45px;
+    bottom: 40px;
+    padding-top: 0;
+  }
 }
-.top-site_review:before {
-  top: 20%;
-  right: -20px;
+.top-site_review p {
+  border-bottom: 1px solid #1A7AB1;
+}
+.top-site_review img {
   width: 17px;
-  height: 17px;
-  border-radius: 50%;
-  background-color: #1A7AB1;
 }
-.top-site_review:after {
-  top: 34%;
-  right: -16px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 6px solid #FFFFFF;
-  border-right: 0;
+
+.top-site_review--flex {
+  gap: 10px;
 }
 
 .top-flow {
@@ -898,7 +1481,14 @@ main {
 }
 
 .top-flow_item {
-  width: 245px;
+  width: calc(50% - 84px);
+  height: 57px;
+}
+@media (min-width: 768px) {
+  .top-flow_item {
+    width: calc(33.3333333333% - 81.6666666667px);
+    height: 57px;
+  }
 }
 
 .top-flow_item--flex {
@@ -906,6 +1496,7 @@ main {
       -ms-flex-align: end;
           align-items: flex-end;
   border-bottom: 1px solid #3284C1;
+  height: 57px;
   padding-bottom: 10px;
 }
 
@@ -914,17 +1505,30 @@ main {
 }
 
 .top-flow_item--step {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
   font-size: 11px;
-  line-height: 8.9090909091;
+  line-height: 7.2727272727;
   color: #2E83C1;
+}
+@media (min-width: 768px) {
+  .top-flow_item--step {
+    line-height: 8.9090909091;
+  }
 }
 
 .top-flow_item--num {
-  font-size: 38px;
-  line-height: 0.7450980392;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-size: 32px;
+  line-height: 1.34375;
   color: #2E83C1;
   opacity: 25%;
   margin-top: -40px;
+}
+@media (min-width: 768px) {
+  .top-flow_item--num {
+    font-size: 38px;
+    line-height: 0.7450980392;
+  }
 }
 
 .top-flow_item--textFlex {
@@ -934,17 +1538,30 @@ main {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  gap: 20px;
+  gap: 10px;
+}
+@media (min-width: 768px) {
+  .top-flow_item--textFlex {
+    gap: 20px;
+  }
 }
 
 .top-flow_item--text {
-  font-size: 18px;
-  line-height: 1.3333333333;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-size: 16px;
+  line-height: 1.3125;
   color: #000000;
   text-align: center;
 }
+@media (min-width: 768px) {
+  .top-flow_item--text {
+    font-size: 18px;
+    line-height: 1.3333333333;
+  }
+}
 
 .top-flow_circle {
+  display: inline-block;
   width: 18px;
   height: 18px;
   border: 1px solid #000000;
@@ -973,11 +1590,13 @@ main {
 }
 
 .top-flow_detail--step {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
   line-height: 5.4444444444;
   color: #2E83C1;
 }
 
 .top-flow_detail--num {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
   font-size: 57px;
   line-height: 1.3333333333;
   color: #3284C1;
@@ -993,6 +1612,14 @@ main {
 .top-flow_detailItemFlex {
   gap: 30px;
 }
+@media (min-width: 768px) {
+  .top-flow_detailItemFlex {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
 
 .top-flow_detail--blueText {
   color: #FFFFFF;
@@ -1003,19 +1630,29 @@ main {
   width: 227px;
   padding: 4px 0;
   position: absolute;
-  top: -15px;
+  top: -20px;
+  z-index: 2;
 }
 
 .top-flow_detail--backBlue {
-  background-color: #F0F9FC;
-  -webkit-clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
-          clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
-  width: 500px;
   position: relative;
 }
 
-.top-flow_detail--lists {
-  padding: 36px 20px 15px 30px;
+.top-flow_detail--clip {
+  width: 345px;
+  max-width: 100%;
+  background-color: #F0F9FC;
+  -webkit-clip-path: polygon(0 1%, 100% 0%, 100% 85%, 50% 100%, 0 85%);
+          clip-path: polygon(0 1%, 100% 0%, 100% 85%, 50% 100%, 0 85%);
+  padding: 30px 15px 55px 15px;
+}
+@media (min-width: 768px) {
+  .top-flow_detail--clip {
+    width: 500px;
+    -webkit-clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
+    padding: 36px 20px 15px 30px;
+  }
 }
 
 .top-flow_detail--list {
@@ -1042,8 +1679,14 @@ main {
 
 .top-flow_detailItem--example {
   border: 1px solid #3284C1;
-  width: 480px;
+  width: 345px;
+  max-width: 100%;
   position: relative;
+}
+@media (min-width: 768px) {
+  .top-flow_detailItem--example {
+    width: 480px;
+  }
 }
 
 .top-flow_detailItem--exampleTitle {
@@ -1060,7 +1703,12 @@ main {
 }
 
 .top-flow_detailItem--exampleLists {
-  padding: 36px 30px 21px 40px;
+  padding: 36px 15px 18px 15px;
+}
+@media (min-width: 768px) {
+  .top-flow_detailItem--exampleLists {
+    padding: 36px 30px 21px 40px;
+  }
 }
 
 .top-flow_detailItem--exampleList {
@@ -1085,6 +1733,18 @@ main {
   color: #000000;
 }
 
+.top-flow_detail--exampleText {
+  color: #000000;
+  line-height: 1.5;
+  padding: 47px 30px 40px 40px;
+}
+
+.top-flow_detail--img {
+  margin: 0 auto;
+  width: 80px;
+  padding-top: 30px;
+}
+
 .top-flow_detailItemTextBox {
   text-align: center;
 }
@@ -1098,14 +1758,59 @@ main {
   color: #FF8955;
 }
 
+.top-flow_detailItemRightImg {
+  width: 495px;
+}
+
 .top-faq {
   background-color: #F0F9FC;
   padding: 98px 0 130px 0;
 }
 
 .top-faq_item {
-  width: 800px;
+  width: 345px;
   margin: 0 auto 40px auto;
+}
+@media (min-width: 768px) {
+  .top-faq_item {
+    width: 800px;
+  }
+}
+
+.top-faq_qFlex--symbol {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+.top-faq_qFlex--symbol:before, .top-faq_qFlex--symbol::after {
+  content: "";
+  display: block;
+  position: absolute;
+  -webkit-transition: top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, top 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.top-faq_qFlex--symbol:before {
+  border-top: solid 2px #1A7AB1;
+  left: 50%;
+  top: 50%;
+  width: 16px;
+}
+.top-faq_qFlex--symbol::after {
+  border-right: solid 2px #1A7AB1;
+  height: 16px;
+  left: 50%;
+  top: 50%;
+}
+
+.top-faq_qFlex--symbol.open::after {
+  top: 19%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .top-faq_q {
@@ -1115,9 +1820,18 @@ main {
 }
 
 .top-faq_qesText {
-  font-size: 18px;
-  line-height: 1.3333333333;
+  font-size: 16px;
+  line-height: 1.5;
   color: #1A7AB1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+@media (min-width: 768px) {
+  .top-faq_qesText {
+    font-size: 18px;
+    line-height: 1.3333333333;
+  }
 }
 
 .top-faq_qFlex {
@@ -1130,9 +1844,15 @@ main {
 }
 
 .top-faq_a {
-  font-size: 24px;
-  line-height: 1.375;
+  font-size: 16px;
+  line-height: 1.625;
   color: #FF8955;
+}
+@media (min-width: 768px) {
+  .top-faq_a {
+    font-size: 24px;
+    line-height: 1.375;
+  }
 }
 
 .top-faq_aFlex {

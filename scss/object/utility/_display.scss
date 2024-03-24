@@ -20,5 +20,13 @@
             display: none;
         }
     }
+
+    &_pc {
+        display: none;
+    
+        @include v.tab {
+            display: block;
+        }
+    }
 }
 

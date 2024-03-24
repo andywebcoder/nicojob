@@ -1,14 +1,165 @@
 <?php get_header(); ?>
 
 <main>
+    <?php
+    if (function_exists('bcn_display')) {
+        bcn_display();
+    }
+    ?>
+
     <section class="top-fv">
         <div class="container">
-            <div class="flex">
-
+            <div class="flex top-fv_itemFlex">
+                <div class="top-fv_item">
+                    高給与
+                </div>
+                <div class="top-fv_item">
+                    残業無し
+                </div>
+                <div class="top-fv_item">
+                    土日休み
+                </div>
             </div>
+            <p class="top-fv_desc">
+                <span class="top-fv_descBlue">理学療法士</span><span class="top-fv_descSmall">の</span>転職<span
+                    class="top-fv_descSmall">なら<br class="display-visible-sp"></span><span
+                    class="top-fv_descEng">NICOJOB</span>
+            </p>
+            <p class="top-fv_subTitle">
+                迷ったらまずは登録！
+            </p>
+            <h2 class="top-fv_title">
+                <span class="flex top-fv_titleFlex">
+                    <span class="top-fv_titleFrame">厳選</span><span class="top-fv_titleBlue">理学療法士</span>
+                </span>
+                転職サイト<span class="top-fv_titleNum">3</span><span class="top-fv_titleOrange">社</span>
+            </h2>
         </div>
     </section>
 
+    <div class="top-table">
+        <div class="container-table">
+            <table class="top-tables">
+                <tbody>
+                    <tr>
+                        <td class=" container-table_item container-table_white">
+                        </td>
+                        <td
+                            class="container-table_column1 container-table_head container-table_head1 container-table_line">
+                            <div class="container-table_headNoImg">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/no1.png" alt="">
+                            </div>
+                            <div class="container-table_headImg">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/table1.png" alt="">
+                            </div>
+                            <a href="" class="container-table_headlink">レバウェル<br class="display-visible_sp">リハビリ</a>
+                        </td>
+                        <td class="container-table_column2 container-table_head">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/table2.png" alt="">
+                            <a href="" class="container-table_headlink">マイナビ<br class="display-visible_sp">コメディカル</a>
+                        </td>
+                        <td class="container-table_column3 container-table_head">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/table3.png" alt="">
+                            <a href="" class="container-table_headlink">PTOTST<br class="display-visible_sp">ワーカー</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="container-table_item container-table_blue">特徴</td>
+                        <td class="container-table_lblue container-table_text">
+                            年収アップ・<br class="display-visible_sp">キャリア<br class="display-visible_pc">
+                            アップを<br class="display-visible_sp">狙うならココ
+                        </td>
+                        <td class="container-table_text">
+                            大手マイナビ運営<br>
+                            転職サポート<br class="display-visible_sp">が手厚い
+                        </td>
+                        <td class="container-table_text">
+                            求人数No.1<br>
+                            好条件<br class="display-visible_sp">求人が豊富
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="container-table_item container-table_blue container-table_second">公開求人</td>
+                        <td class="container-table_lblue container-table_circleText">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
+                            <p>非公開</p>
+                        </td>
+                        <td class="container-table_circleText container-table_second">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
+                            <p>約13,000件</p>
+                        </td>
+                        <td class="container-table_circleText container-table_second">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
+                            <p>約20,000件</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="container-table_item container-table_blue container-table_third">高年収求人</td>
+                        <td class="container-table_lblue container-table_circleText container-table_third">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
+                            <p>非公開</p>
+                        </td>
+                        <td class="container-table_circleText container-table_third">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
+                            <p>不明</p>
+                        </td>
+                        <td class="container-table_circleText container-table_third">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
+                            <p>約5,000件</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="container-table_item container-table_blue container-table_fourth">対応地域</td>
+                        <td class="container-table_lblue container-table_circleText container-table_fourth">
+                            全国
+                        </td>
+                        <td class="container-table_circleText container-table_fourth">
+                            全国
+                        </td>
+                        <td class="container-table_circleText container-table_fourth">
+                            全国
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="container-table_item container-table_blue container-table_fifth">口コミ<br>評判</td>
+                        <td class="container-table_lblue container-table_reviews container-table_fifth">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="">
+                            <a href="">4.5</a>
+                        </td>
+                        <td class="container-table_reviews container-table_fifth">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="">
+                            <a href="">4.5</a>
+                        </td>
+                        <td class="container-table_reviews container-table_fifth">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="">
+                            <a href="">4.5</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td
+                            class="container-table_item container-table_itemLast container-table_blue container-table_sixth">
+                            公式サイト</td>
+                        <td class="container-table_lblue container-table_link container-table_sixth">
+                            <a href="">
+                                公式<br class="display-visible_sp">サイト
+                            </a>
+                        </td>
+                        <td class="container-table_link container-table_sixth">
+                            <a href="">
+                                公式<br class="display-visible_sp">サイト
+                            </a>
+                        </td>
+                        <td class="container-table_link container-table_sixth">
+                            <a href="">
+                                公式<br class="display-visible_sp">サイト
+                            </a>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
 
     <section class="top-site">
         <div class="container">
@@ -26,12 +177,12 @@
                     <h3 class="title-h3">
                         レバウェルリハビリ
                     </h3>
-                    <div class="flex top-site_item--flex">
+                    <div class="flex flex-column top-site_item--flex">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site1.png" alt=""
                             class="top-site_item--img">
                         <div class="top-site_box">
                             <h4 class="title-h4">
-                                高年収求人を狙えるおすすめ求人サイト
+                                高年収求人を狙える<br class="display-visible_sp">おすすめ求人サイト
                             </h4>
                             <ul class="top-site_lists">
                                 <li class="top-site_list">
@@ -44,7 +195,7 @@
 
                             <div class="flex top-site_flex">
                                 <div class="top-site_blue">
-                                    こんな方に<br>
+                                    こんな方に<br class="display-visible_pc">
                                     おすすめ
                                 </div>
                                 <div class="top-site_lblue">
@@ -61,7 +212,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="fle top-site_official">
+                    <div class="top-site_official">
                         <div class="lable-official">
                             <span class="lable-official_text">簡単<span class="lable-official_num">1</span>分で登録！</span>
                             <a href="" class="lable-official_link">
@@ -70,10 +221,245 @@
                         </div>
 
                         <a href="" class="top-site_review">
-                            評判・口コミはこちら
+                            <div class="flex top-site_review--flex">
+                                <p>評判・口コミはこちら</p>
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/right_arrow.png"
+                                    alt="">
+                            </div>
                         </a>
                     </div>
                 </div>
+
+                <div class="top-site_item">
+                    <h3 class="title-h3">
+                        マイナビコメディカル
+                    </h3>
+                    <div class="flex flex-column top-site_item--flex">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site2.png" alt=""
+                            class="top-site_item--img">
+                        <div class="top-site_box">
+                            <h4 class="title-h4">
+                                充実のサポートで安心の<br class="display-visible_sp">転職サイト
+                            </h4>
+                            <ul class="top-site_lists">
+                                <li class="top-site_list">
+                                    転職サポートが充実しており、<span>若手や転職初心者に<br>おすすめ。
+                                    </span>
+                                </li>
+                                <li class="top-site_list">
+                                    公開求人数(PT)：約13,000件
+                                </li>
+                            </ul>
+
+                            <div class="flex top-site_flex">
+                                <div class="top-site_blue">
+                                    こんな方に<br class="display-visible_pc">
+                                    おすすめ
+                                </div>
+                                <div class="top-site_lblue">
+                                    <p class="top-site_lblue--text">
+                                        信頼感のある大手転職サイトを活用したい
+                                    </p>
+                                    <p class="top-site_lblue--text">
+                                        求人数・非公開求人が豊富な転職サイトがいい
+                                    </p>
+                                    <p class="top-site_lblue--text">
+                                        転職がはじめてでサポートをしっかりと受けたい
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-site_official">
+                        <div class="lable-official">
+                            <span class="lable-official_text">簡単<span class="lable-official_num">1</span>分で登録！</span>
+                            <a href="" class="lable-official_link">
+                                公式サイトはこちら
+                            </a>
+                        </div>
+
+                        <a href="" class="top-site_review">
+                            <div class="flex top-site_review--flex">
+                                <p>評判・口コミはこちら</p>
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/right_arrow.png"
+                                    alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="top-site_item">
+                    <h3 class="title-h3">
+                        PTOTSTワーカー
+                    </h3>
+                    <div class="flex flex-column top-site_item--flex">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site3.png" alt=""
+                            class="top-site_item--img">
+                        <div class="top-site_box">
+                            <h4 class="title-h4">
+                                求人数No.1の転職サイト
+                            </h4>
+                            <ul class="top-site_lists">
+                                <li class="top-site_list">
+                                    <span>業界求人数No.1。</span>好条件求人多数。
+                                </li>
+                                <li class="top-site_list">
+                                    公開求人数(PT)：約20,000件
+                                </li>
+                            </ul>
+
+                            <div class="flex top-site_flex">
+                                <div class="top-site_blue">
+                                    こんな方に<br class="display-visible_pc">
+                                    おすすめ
+                                </div>
+                                <div class="top-site_lblue">
+                                    <p class="top-site_lblue--text">
+                                        とりあず人気No.1を選びたい
+                                    </p>
+                                    <p class="top-site_lblue--text">
+                                        求人数の豊富な転職サイトがいい
+                                    </p>
+                                    <p class="top-site_lblue--text">
+                                        条件の良い求人をたくさん紹介して欲しい
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-site_official">
+                        <div class="lable-official">
+                            <span class="lable-official_text">簡単<span class="lable-official_num">1</span>分で登録！</span>
+                            <a href="" class="lable-official_link">
+                                公式サイトはこちら
+                            </a>
+                        </div>
+
+                        <a href="" class="top-site_review">
+                            <div class="flex top-site_review--flex">
+                                <p>評判・口コミはこちら</p>
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/right_arrow.png"
+                                    alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="top-site_item">
+                    <h3 class="title-h3">
+                        PTOT人材バンク
+                    </h3>
+                    <div class="flex flex-column top-site_item--flex">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site4.png" alt=""
+                            class="top-site_item--img">
+                        <div class="top-site_box">
+                            <h4 class="title-h4">
+                                全国対応の万能型の<br class="display-visible_sp">転職サイト
+                            </h4>
+                            <ul class="top-site_lists">
+                                <li class="top-site_list">
+                                    <span>業界最大級の紹介実績を誇る</span>老舗エージェント。
+                                    ハローワークの求人あり。
+                                </li>
+                                <li class="top-site_list">
+                                    公開求人数(PT)： 約17,000件
+                                </li>
+                            </ul>
+
+                            <div class="flex top-site_flex">
+                                <div class="top-site_blue">
+                                    こんな方に<br class="display-visible_pc">
+                                    おすすめ
+                                </div>
+                                <div class="top-site_lblue">
+                                    <p class="top-site_lblue--text">
+                                        とりあず人気No.1を選びたい
+                                    </p>
+                                    <p class="top-site_lblue--text">
+                                        求人数の豊富な転職サイトがいい
+                                    </p>
+                                    <p class="top-site_lblue--text">
+                                        条件の良い求人をたくさん紹介して欲しい
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-site_official">
+                        <div class="lable-official">
+                            <span class="lable-official_text">簡単<span class="lable-official_num">1</span>分で登録！</span>
+                            <a href="" class="lable-official_link">
+                                公式サイトはこちら
+                            </a>
+                        </div>
+
+                        <a href="" class="top-site_review">
+                            <div class="flex top-site_review--flex">
+                                <p>評判・口コミはこちら</p>
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/right_arrow.png"
+                                    alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="top-site_item">
+                    <h3 class="title-h3">
+                        PTOTキャリアナビ
+                    </h3>
+                    <div class="flex flex-column top-site_item--flex">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site5.png" alt=""
+                            class="top-site_item--img">
+                        <div class="top-site_box">
+                            <h4 class="title-h4">
+                                一都三県に強い理学療法士の<br class="display-visible_sp">転職サイト
+                            </h4>
+                            <ul class="top-site_lists">
+                                <li class="top-site_list">
+                                    <span>介護施設、クリニック、ジムの求人に強い。</span><br class="display-visible_pc">好条件求人多数。
+                                </li>
+                                <li class="top-site_list">
+                                    求人数：非公開
+                                </li>
+                            </ul>
+
+                            <div class="flex top-site_flex">
+                                <div class="top-site_blue">
+                                    こんな方に<br class="display-visible_pc">
+                                    おすすめ
+                                </div>
+                                <div class="top-site_lblue">
+                                    <p class="top-site_lblue--text">
+                                        信頼感のある大手転職サイトを活用したい
+                                    </p>
+                                    <p class="top-site_lblue--text">
+                                        介護施設, クリニック, フィットネス関連に興味がある
+                                    </p>
+                                    <p class="top-site_lblue--text">
+                                        LINEを活用して転職活動したい
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-site_official">
+                        <div class="lable-official">
+                            <span class="lable-official_text">簡単<span class="lable-official_num">1</span>分で登録！</span>
+                            <a href="" class="lable-official_link">
+                                公式サイトはこちら
+                            </a>
+                        </div>
+
+                        <a href="" class="top-site_review">
+                            <div class="flex top-site_review--flex">
+                                <p>評判・口コミはこちら</p>
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/right_arrow.png"
+                                    alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
             </div>
     </section>
 
@@ -84,7 +470,8 @@
                 <p>一発で理解できる！！</p>
             </div>
             <h2 class="title-h2">
-                <span class="title-h2_span">理学療法士の</span>転職活動<span class="title-h2_span">の</span>流れ</span>
+                <span class="title-h2_span">理学療法士の</span><br class="display-visible_sp">転職活動<span
+                    class="title-h2_span">の</span>流れ</span>
             </h2>
 
             <div class="top-flow_step">
@@ -100,7 +487,9 @@
                                 <p class="top-flow_item--text">
                                     転職準備
                                 </p>
-                                <span class="top-flow_circle"></span>
+                                <a href="#01">
+                                    <span class="top-flow_circle"></span>
+                                </a>
                             </div>
 
                         </div>
@@ -116,7 +505,9 @@
                                 <p class="top-flow_item--text">
                                     情報収集
                                 </p>
-                                <span class="top-flow_circle"></span>
+                                <a href="#02">
+                                    <span class="top-flow_circle"></span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -129,9 +520,11 @@
                             </div>
                             <div class="flex top-flow_item--textFlex">
                                 <p class="top-flow_item--text">
-                                    書類作成・応募
+                                    書類作成・<br class="display-visible_sp">応募
                                 </p>
-                                <span class="top-flow_circle"></span>
+                                <a href="#03">
+                                    <span class="top-flow_circle"></span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -146,7 +539,9 @@
                                 <p class="top-flow_item--text">
                                     面接
                                 </p>
-                                <span class="top-flow_circle"></span>
+                                <a href="#04">
+                                    <span class="top-flow_circle"></span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -161,7 +556,9 @@
                                 <p class="top-flow_item--text">
                                     内定
                                 </p>
-                                <span class="top-flow_circle"></span>
+                                <a href="#05">
+                                    <span class="top-flow_circle"></span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -174,9 +571,11 @@
                             </div>
                             <div class="flex top-flow_item--textFlex">
                                 <p class="top-flow_item--text">
-                                    退職手続き・退職
+                                    退職手続き・<br class="display-visible_sp">退職
                                 </p>
-                                <span class="top-flow_circle"></span>
+                                <a href="#06">
+                                    <span class="top-flow_circle"></span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -186,7 +585,7 @@
 
             <div class="top-flow_detailItems">
 
-                <div class="top-flow_detailItem">
+                <div class="top-flow_detailItem" id="01">
 
                     <div class="flex top-flow_detail--stepFlex">
                         <span class="top-flow_detail--step">STEP</span>
@@ -194,28 +593,31 @@
                         <p class="top-flow_detail--text">転職準備</p>
                     </div>
 
-                    <div class="flex top-flow_detailItemFlex">
+                    <div class="flex flex-column top-flow_detailItemFlex">
                         <div class="top-flow_detailItemLeft">
 
                             <div class="top-flow_detail--backBlue">
                                 <p class="top-flow_detail--blueText">
                                     このステップでOK！
                                 </p>
-                                <ul class="top-flow_detail--lists">
-                                    <li class="flex top-flow_detail--list">
-                                        <span class="top-flow_detail--listNum">01</span>
-                                        <p class="top-flow_detail--listText">転職の目的を明確にする</p>
-                                    </li>
-                                    <li class="flex top-flow_detail--list">
-                                        <span class="top-flow_detail--listNum">02</span>
-                                        <p class="top-flow_detail--listText">転職スケジュールを立てる
-                                        </p>
-                                    </li>
-                                    <li class="flex top-flow_detail--list">
-                                        <span class="top-flow_detail--listNum">03</span>
-                                        <p class="top-flow_detail--listText">自己分析により自分の強みを発見する</p>
-                                    </li>
-                                </ul>
+                                <div class="top-flow_detail--clip">
+                                    <ul class="top-flow_detail--lists">
+                                        <li class="flex top-flow_detail--list">
+                                            <span class="top-flow_detail--listNum">01</span>
+                                            <p class="top-flow_detail--listText">転職の目的を明確にする</p>
+                                        </li>
+                                        <li class="flex top-flow_detail--list">
+                                            <span class="top-flow_detail--listNum">02</span>
+                                            <p class="top-flow_detail--listText">転職スケジュールを立てる
+                                            </p>
+                                        </li>
+                                        <li class="flex top-flow_detail--list">
+                                            <span class="top-flow_detail--listNum">03</span>
+                                            <p class="top-flow_detail--listText">自己分析により自分の強みを発見する</p>
+                                        </li>
+                                    </ul>
+                                </div>
+
                             </div>
 
                         </div>
@@ -242,19 +644,168 @@
                             </div>
                         </div>
                     </div>
-                    <span class="top-flow_detail--img">
-                        <img src="" alt="">
-                    </span>
+                    <div class="top-flow_detail--img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow.png" alt="">
+                    </div>
                 </div>
 
+                <div class="top-flow_detailItem" id="02">
 
+                    <div class="flex top-flow_detail--stepFlex">
+                        <span class="top-flow_detail--step">STEP</span>
+                        <p class="top-flow_detail--num">02</p>
+                        <p class="top-flow_detail--text">情報収集</p>
+                    </div>
 
+                    <div class="flex flex-column top-flow_detailItemFlex">
+                        <div class="top-flow_detailItemLeft">
 
+                            <div class="top-flow_detail--backBlue">
+                                <p class="top-flow_detail--blueText">
+                                    この4通りから選ぶ！
+                                </p>
+                                <div class="top-flow_detail--clip">
+                                    <ul class="top-flow_detail--lists">
+                                        <li class="flex top-flow_detail--list">
+                                            <span class="top-flow_detail--listNum">01</span>
+                                            <p class="top-flow_detail--listText">直接ホームページから探す
 
+                                            </p>
+                                        </li>
+                                        <li class="flex top-flow_detail--list">
+                                            <span class="top-flow_detail--listNum">02</span>
+                                            <p class="top-flow_detail--listText">知人の紹介
+                                            </p>
+                                        </li>
+                                        <li class="flex top-flow_detail--list">
+                                            <span class="top-flow_detail--listNum">03</span>
+                                            <p class="top-flow_detail--listText">ハローワーク</p>
+                                        </li>
+                                        <li class="flex top-flow_detail--list">
+                                            <span class="top-flow_detail--listNum">04</span>
+                                            <p class="top-flow_detail--listText">転職サイト</p>
+                                        </li>
+                                    </ul>
+                                </div>
 
+                            </div>
 
+                        </div>
+                        <div class="top-flow_detailItemRight">
+                            <div class="top-flow_detailItem--example">
+                                <p class="top-flow_detailItem--exampleTitle">
+                                    一例を紹介
+                                </p>
+                                <p class="top-flow_detail--exampleText">
+                                    転職サポートを受けつつ、<br>
+                                    好条件な転職先を見つけたいから④転職サイトで<br>
+                                    転職する！
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-flow_detail--img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow.png" alt="">
+                    </div>
+                </div>
 
-                <div class="top-flow_detailItem">
+                <div class="top-flow_detailItem" id="03">
+
+                    <div class="flex top-flow_detail--stepFlex">
+                        <span class="top-flow_detail--step">STEP</span>
+                        <p class="top-flow_detail--num">03</p>
+                        <p class="top-flow_detail--text">書類作成・応募</p>
+                    </div>
+
+                    <div class="flex flex-column top-flow_detailItemFlex">
+                        <div class="top-flow_detailItemLeft">
+
+                            <div class="top-flow_detail--backBlue">
+                                <p class="top-flow_detail--blueText">
+                                    この2つを用意する！
+                                </p>
+                                <div class="top-flow_detail--clip">
+                                    <ul class="top-flow_detail--lists">
+                                        <li class="flex top-flow_detail--list">
+                                            <span class="top-flow_detail--listNum">01</span>
+                                            <p class="top-flow_detail--listText">履歴書
+                                            </p>
+                                        </li>
+                                        <li class="flex top-flow_detail--list">
+                                            <span class="top-flow_detail--listNum">02</span>
+                                            <p class="top-flow_detail--listText">職務経歴書
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="top-flow_detailItemRight">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/step3.png" alt=""
+                                class="top-flow_detailItemRightImg">
+                        </div>
+                    </div>
+                    <div class="top-flow_detail--img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow.png" alt="">
+                    </div>
+                </div>
+
+                <div class="top-flow_detailItem" id="04">
+
+                    <div class="flex top-flow_detail--stepFlex">
+                        <span class="top-flow_detail--step">STEP</span>
+                        <p class="top-flow_detail--num">04</p>
+                        <p class="top-flow_detail--text">面接</p>
+                    </div>
+
+                    <div class="flex flex-column top-flow_detailItemFlex">
+                        <div class="top-flow_detailItemLeft">
+
+                            <div class="top-flow_detail--backBlue">
+                                <p class="top-flow_detail--blueText">
+                                    この4つは準備する！
+                                </p>
+                                <div class="top-flow_detail--clip">
+                                    <ul class="top-flow_detail--lists">
+                                        <li class="flex top-flow_detail--list">
+                                            <span class="top-flow_detail--listNum">01</span>
+                                            <p class="top-flow_detail--listText">自己紹介
+                                            </p>
+                                        </li>
+                                        <li class="flex top-flow_detail--list">
+                                            <span class="top-flow_detail--listNum">02</span>
+                                            <p class="top-flow_detail--listText">自己PR
+                                            </p>
+                                        </li>
+                                        <li class="flex top-flow_detail--list">
+                                            <span class="top-flow_detail--listNum">03</span>
+                                            <p class="top-flow_detail--listText">転職理由
+                                            </p>
+                                        </li>
+                                        <li class="flex top-flow_detail--list">
+                                            <span class="top-flow_detail--listNum">04</span>
+                                            <p class="top-flow_detail--listText">志望理由
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="top-flow_detailItemRight">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/step4.png" alt=""
+                                class="top-flow_detailItemRightImg">
+                        </div>
+                    </div>
+                    <div class="top-flow_detail--img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow.png" alt="">
+                    </div>
+                </div>
+
+                <div class="top-flow_detailItem" id="05">
 
                     <div class="flex top-flow_detail--stepFlex">
                         <span class="top-flow_detail--step">STEP</span>
@@ -268,12 +819,12 @@
                             基本的に、2日～3日（遅くても1週間以内）で返事するのが一般的です。
                         </p>
                     </div>
-                    <span class="top-flow_detail--img">
-                        <img src="" alt="">
-                    </span>
+                    <div class="top-flow_detail--img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow.png" alt="">
+                    </div>
                 </div>
 
-                <div class="top-flow_detailItem">
+                <div class="top-flow_detailItem" id="06">
 
                     <div class="flex top-flow_detail--stepFlex">
                         <span class="top-flow_detail--step">STEP</span>
@@ -309,8 +860,9 @@
                     <div class="flex top-faq_qFlex">
                         <div class="top-faq_q">Q</div>
                         <p class="top-faq_qesText">
-                            理学療法士の年収相場は？助成金の申請採用率が知りたいです。
+                            理学療法士の年収相場は？
                         </p>
+                        <span class="top-faq_qFlex--symbol"></span>
                     </div>
                     <div class="flex top-faq_aFlex">
                         <div class="top-faq_a">A</div>
@@ -326,6 +878,7 @@
                         <p class="top-faq_qesText">
                             理学療法士として経験年数1年でも転職できる？
                         </p>
+                        <span class="top-faq_qFlex--symbol"></span>
                     </div>
                     <div class="flex top-faq_aFlex">
                         <div class="top-faq_a">A</div>
@@ -342,6 +895,7 @@
                         <p class="top-faq_qesText">
                             理学療法士から一般企業に転職できる？
                         </p>
+                        <span class="top-faq_qFlex--symbol"></span>
                     </div>
                     <div class="flex top-faq_aFlex">
                         <div class="top-faq_a">A</div>
@@ -358,6 +912,7 @@
                         <p class="top-faq_qesText">
                             転職時期はいつがオススメ？
                         </p>
+                        <span class="top-faq_qFlex--symbol"></span>
                     </div>
                     <div class="flex top-faq_aFlex">
                         <div class="top-faq_a">A</div>
@@ -374,6 +929,7 @@
                         <p class="top-faq_qesText">
                             転職活動は在職中・退職後どちらがいい？
                         </p>
+                        <span class="top-faq_qFlex--symbol"></span>
                     </div>
                     <div class="flex top-faq_aFlex">
                         <div class="top-faq_a">A</div>
@@ -389,6 +945,7 @@
                         <p class="top-faq_qesText">
                             30代、40代理学療法士の転職時の注意点はある？
                         </p>
+                        <span class="top-faq_qFlex--symbol"></span>
                     </div>
                     <div class="flex top-faq_aFlex">
                         <div class="top-faq_a">A</div>
@@ -404,7 +961,7 @@
     <section class="top-column">
         <div class="container">
             <div class="label-blue">
-                <p>理学療法士の転職について詳しく知りたい</p>
+                <p>理学療法士の転職について<br class="display-visible_sp">詳しく知りたい</p>
             </div>
             <h2 class="title-h2">
                 コラム最新記事一覧
@@ -431,11 +988,6 @@
 
         </div>
     </section>
-
-
-
-
-
 
 </main>
 
