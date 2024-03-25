@@ -1306,7 +1306,12 @@ th {
 
 .top-site {
   background-color: #F0F9FC;
-  padding: 100px 0;
+  padding: 50px 0;
+}
+@media (min-width: 768px) {
+  .top-site {
+    padding: 100px 0;
+  }
 }
 
 .top-site_official {
@@ -1591,8 +1596,9 @@ th {
 
 .top-flow_detail--step {
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
-  line-height: 5.4444444444;
+  line-height: 6.125;
   color: #2E83C1;
+  padding-right: 12px;
 }
 
 .top-flow_detail--num {
@@ -1601,12 +1607,19 @@ th {
   line-height: 1.3333333333;
   color: #3284C1;
   opacity: 0.25;
+  padding-right: 17px;
 }
 
 .top-flow_detail--text {
-  font-size: 28px;
-  line-height: 1.3214285714;
+  font-size: 24px;
+  line-height: 1.3333333333;
   color: #000000;
+}
+@media (min-width: 768px) {
+  .top-flow_detail--text {
+    font-size: 28px;
+    line-height: 1.3214285714;
+  }
 }
 
 .top-flow_detailItemFlex {
@@ -1713,6 +1726,9 @@ th {
 
 .top-flow_detailItem--exampleList {
   gap: 20px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .top-flow_detail--exampleListNum {
@@ -1736,7 +1752,12 @@ th {
 .top-flow_detail--exampleText {
   color: #000000;
   line-height: 1.5;
-  padding: 47px 30px 40px 40px;
+  padding: 36px 15px 18px 15px;
+}
+@media (min-width: 768px) {
+  .top-flow_detail--exampleText {
+    padding: 47px 30px 40px 40px;
+  }
 }
 
 .top-flow_detail--img {
@@ -1752,7 +1773,7 @@ th {
 .top-flow_detailItemText {
   border: 1px solid #3284C1;
   line-height: 1.875;
-  padding: 20px 0;
+  padding: 20px 15px;
 }
 .top-flow_detailItemText span {
   color: #FF8955;
@@ -1838,9 +1859,9 @@ th {
   background-color: #FFFFFF;
   padding: 12px 0 15px 30px;
   gap: 20px;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .top-faq_a {

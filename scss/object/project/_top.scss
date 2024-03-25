@@ -410,7 +410,11 @@ th {
 
 .top-site{
     background-color: v.$back-lblue;
-    padding: 100px 0;
+    padding: 50px 0;
+
+    @include v.tab{
+        padding: 100px 0;
+    }
 }
 .top-site_official{
     text-align: center;
@@ -651,13 +655,12 @@ th {
         padding-bottom: 0;
     }
 }
-.top-flow_detail--stepFlex{
 
-}
 .top-flow_detail--step{
     font-family: v.$YuGo;
-    line-height: calc(98/18);
+    line-height: calc(98/16);
     color: v.$text-blue;
+    padding-right: 12px;
 }
 .top-flow_detail--num{
     font-family: v.$YuGo;
@@ -665,11 +668,17 @@ th {
     line-height: calc(76/57);
     color: v.$num-blue;
     opacity: .25;
+    padding-right: 17px;
 }
 .top-flow_detail--text{
-    font-size: 28px;
-    line-height: calc(37/28);
+    font-size: 24px;
+    line-height: calc(32/24);
     color: v.$base-black;
+
+    @include v.tab{
+        font-size: 28px;
+        line-height: calc(37/28);
+    }
 }
 .top-flow_detail--blue{
 
@@ -760,6 +769,7 @@ th {
 }
 .top-flow_detailItem--exampleList{
     gap: 20px;
+    align-items: flex-start;
 }
 .top-flow_detail--exampleListNum{
     position: relative;
@@ -781,7 +791,11 @@ th {
 .top-flow_detail--exampleText{
     color: v.$base-black;
     line-height: calc(24/16);
-    padding: 47px 30px 40px 40px;
+    padding: 36px 15px 18px 15px;
+
+    @include v.tab{
+        padding: 47px 30px 40px 40px;
+    }
 }
 .top-flow_detail--img{
     margin: 0 auto;
@@ -794,7 +808,7 @@ th {
 .top-flow_detailItemText{
     border: 1px solid v.$num-blue;
     line-height: calc(30/16);
-    padding: 20px 0;
+    padding: 20px 15px;
 
     span{
         color: v.$text-orange;
@@ -869,7 +883,7 @@ th {
     background-color: v.$base-white;
     padding: 12px 0 15px 30px;
     gap: 20px;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 .top-faq_a{
     font-size: 16px;

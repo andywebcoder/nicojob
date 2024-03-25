@@ -22,7 +22,7 @@
             </div>
             <p class="top-fv_desc">
                 <span class="top-fv_descBlue">理学療法士</span><span class="top-fv_descSmall">の</span>転職<span
-                    class="top-fv_descSmall">なら<br class="display-visible-sp"></span><span
+                    class="top-fv_descSmall">なら<br class="display-visible_sp"></span><span
                     class="top-fv_descEng">NICOJOB</span>
             </p>
             <p class="top-fv_subTitle">
@@ -167,8 +167,8 @@
                 <p>あなたにあった求人がきっと見つかる</p>
             </div>
             <h2 class="title-h2">
-                <span class="title-h2_span">おすすめ理学療法士向け</span>転職サイト<span class="title-h2_orange"><span
-                        class="title-h2_num">5</span>選</span>
+                <span class="title-h2_span">おすすめ理学療法士向け</span><br class="display-visible_sp">転職サイト<span
+                    class="title-h2_orange"><span class="title-h2_num">5</span>選</span>
             </h2>
 
             <div class="top-site_items">
@@ -634,7 +634,8 @@
                                     </li>
                                     <li class="flex top-flow_detailItem--exampleList">
                                         <span class="top-flow_detail--exampleListNum">02</span>
-                                        <p class="top-flow_detail--exampleListText">3月に応募、4月に面接、5月に退社・入社</p>
+                                        <p class="top-flow_detail--exampleListText">3月に応募、4月に面接、<br
+                                                class="display-visible_sp">5月に退社・入社</p>
                                     </li>
                                     <li class="flex top-flow_detailItem--exampleList">
                                         <span class="top-flow_detail--exampleListNum">03</span>
@@ -698,7 +699,7 @@
                                 </p>
                                 <p class="top-flow_detail--exampleText">
                                     転職サポートを受けつつ、<br>
-                                    好条件な転職先を見つけたいから④転職サイトで<br>
+                                    好条件な転職先を見つけたいから④転職サイトで<br class="display-visible_pc">
                                     転職する！
                                 </p>
                             </div>
