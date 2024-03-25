@@ -250,7 +250,7 @@
 
     @include v.lt{
         top: -20%;
-        left: 2%;
+        left: 17%;
         width: 85px;
     }
 }
@@ -278,7 +278,7 @@
     @include v.lt{
         width: 195px;
         padding-right: 15px;
-        margin-left: auto;    
+        margin: 0 0 0 auto;
     }
 
 }

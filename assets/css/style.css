@@ -1126,7 +1126,7 @@ main {
 @media (min-width: 1024px) {
   .top-table_headNoImg {
     top: -20%;
-    left: 2%;
+    left: 17%;
     width: 85px;
   }
 }
@@ -1166,7 +1166,7 @@ main {
   .top-table_headImg {
     width: 195px;
     padding-right: 15px;
-    margin-left: auto;
+    margin: 0 0 0 auto;
   }
 }
 
