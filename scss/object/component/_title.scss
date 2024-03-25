@@ -1,190 +1,14 @@
 @use "../../foundation/variables" as v;
 
-.title {
-
-//     &-topsub {
-//         font-size: 18px;
-//         font-weight: 500;
-//         font-family: v.$en;
-//         margin-bottom: 8px;
-// 
-//         @include v.tab {
-//             font-size: 24px;
-//         }
-// 
-//         &_blue {
-//             color: v.$sub-blue;
-//         }
-// 
-//         &_gray {
-//             color: v.$base-gray;
-//         }
-//     }
-// 
-//     &-topmain {
-//         font-size: 24px;
-//         margin-bottom: 20px;
-//         line-height: 1;
-// 
-//         @include v.tab {
-//             font-size: 36px;
-//             margin-bottom: 40px;
-//         }
-// 
-//         &_black {
-//             color: v.$text-dark;
-//         }
-// 
-//         &_gray {
-//             color: v.$base-gray;
-//         }
-//     }
-//     &-numtitle {
-//         background-color: v.$base-gray;
-//         font-size: 16px;
-//         padding: 8px;
-//         margin-bottom: 16px;
-//         @include v.tab{
-//             font-size: 20px;
-// 
-//         }
-//     }
-// 
-//     &-underline {
-//         border-bottom: 4px solid v.$border-light;
-//         position: relative;
-//         padding-bottom: 8px;
-//         width: 100%;
-//         margin-bottom: 24px;
-//         &:after {
-//             content: "";
-//             width: 105px;
-//             height: 4px;
-//             background-color: v.$sub-blue;
-//             position: absolute;
-//             left: 0;
-//             bottom: -4px;
-//         }
-//     }
-// 
-//     &-leftline{
-//         width: 100%;
-//         font-size: 16px;        
-//         padding: 8px;
-//         border-left: 2px solid v.$main-blue;
-//         background-color: v.$base-gray;
-//         @include v.tab{
-//             font-size: 20px;
-//             padding: 16px;
-//         }
-//     }
-// 
-//     &-center {
-//         font-weight: bold;
-//         text-align: center;
-//         font-size: 22px;
-//         margin-bottom: 40px;
-// 
-//         @include v.tab {
-//             font-size: 28px;
-//         }
-// 
-//         @include v.lt {
-//             margin-bottom: 68px;
-//         }
-// 
-//         @include v.pc {
-//             font-size: 40px;
-//             margin-bottom: 80px;
-//         }
-//     }
-// 
-//     &-type1 {
-//         padding: 20px 0 16px 0;
-// 
-//         @include v.tab {
-//             padding: 40px 0 20px 0;
-//         }
-// 
-//         @include v.lt {
-//             padding: 80px 0 40px 0;
-//         }
-// 
-//         &_center {
-//             text-align: center;
-//         }
-// 
-//         &_left {
-//             text-align: left;
-//         }
-// 
-//         &_main {
-//             font-size: 24px;
-//             font-weight: 700;
-// 
-//             @include v.tab {
-//                 font-size: 32px;
-//             }
-// 
-//             @include v.lt {
-//                 font-size: 40px;
-//             }
-//         }
-// 
-//         &_sub {
-//             font-size: 16px;
-//             font-family: v.$en;
-//             color: v.$text-light;
-// 
-//             @include v.tab {
-//                 font-size: 20px;
-//             }
-// 
-//             @include v.lt {
-//                 font-size: 24px;
-//             }
-//         }
-//     }
-// 
-//     &-type3 {
-//         font-size: 24px;
-//         font-weight: 700;
-// 
-//         @include v.tab {
-//             font-size: 32px;
-//         }
-//     }
-// 
-//     &-num {
-//         font-size: 32px;
-//         font-family: v.$num;
-//         color: v.$text-normal;
-//     } 
-}
-
 .title-h2{
     text-align: center;
-    font-size: 36px;
-    line-height: calc(54/36);
     font-family: v.$YuGo;
     color: v.$base-black;
     margin-bottom: 43px;
 
     @include v.tab{
-        font-size: 39px;
-        line-height: calc(52/39);
         margin-bottom: 55px;
     }
-}
-.title-h2_span{
-    font-size: 28px;
-    line-height: calc(54/28);
-
-    @include v.tab{
-        font-size: 32px;
-        line-height: calc(43/32);
-    }
-
 }
 .title-h2_orange{
     color: v.$text-orange;
@@ -235,7 +59,7 @@
     color: v.$base-blue;
     background: linear-gradient(transparent 75%, rgb(255, 137, 85, 0.3) 0);
     margin-bottom: 10px;
-    text-align: center;
+    display: inline;
 
     @include v.tab{
         font-size: 28px;

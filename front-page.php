@@ -24,7 +24,9 @@
                 <span class="top-fv_descBlue">理学療法士</span><span class="top-fv_descSmall">の</span>転職<span
                     class="top-fv_descSmall">なら<br class="display-visible_sp"></span><span
                     class="top-fv_descEng">NICOJOB</span>
+                <span class="top-fv_descLine"></span>
             </p>
+
             <p class="top-fv_subTitle">
                 迷ったらまずは登録！
             </p>
@@ -42,114 +44,112 @@
             <table class="top-tables">
                 <tbody>
                     <tr>
-                        <td class=" container-table_item container-table_white">
+                        <td class="top-table_item top-table_white">
                         </td>
-                        <td
-                            class="container-table_column1 container-table_head container-table_head1 container-table_line">
-                            <div class="container-table_headNoImg">
+                        <td class="top-table_column1 top-table_head top-table_head1 top-table_line">
+                            <div class="top-table_headNoImg">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/no1.png" alt="">
                             </div>
-                            <div class="container-table_headImg">
+                            <div class="top-table_headImg">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/table1.png" alt="">
                             </div>
-                            <a href="" class="container-table_headlink">レバウェル<br class="display-visible_sp">リハビリ</a>
+                            <a href="" class="top-table_headlink">レバウェル<br class="display-visible_sp">リハビリ</a>
                         </td>
-                        <td class="container-table_column2 container-table_head">
+                        <td class="top-table_column2 top-table_head">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/table2.png" alt="">
-                            <a href="" class="container-table_headlink">マイナビ<br class="display-visible_sp">コメディカル</a>
+                            <a href="" class="top-table_headlink">マイナビ<br class="display-visible_sp">コメディカル</a>
                         </td>
-                        <td class="container-table_column3 container-table_head">
+                        <td class="top-table_column3 top-table_head">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/table3.png" alt="">
-                            <a href="" class="container-table_headlink">PTOTST<br class="display-visible_sp">ワーカー</a>
+                            <a href="" class="top-table_headlink">PTOTST<br class="display-visible_sp">ワーカー</a>
                         </td>
                     </tr>
                     <tr>
-                        <td class="container-table_item container-table_blue">特徴</td>
-                        <td class="container-table_lblue container-table_text">
+                        <td class="top-table_item top-table_blue">特徴</td>
+                        <td class="top-table_lblue top-table_text">
                             年収アップ・<br class="display-visible_sp">キャリア<br class="display-visible_pc">
                             アップを<br class="display-visible_sp">狙うならココ
                         </td>
-                        <td class="container-table_text">
+                        <td class="top-table_text">
                             大手マイナビ運営<br>
                             転職サポート<br class="display-visible_sp">が手厚い
                         </td>
-                        <td class="container-table_text">
+                        <td class="top-table_text">
                             求人数No.1<br>
                             好条件<br class="display-visible_sp">求人が豊富
                         </td>
                     </tr>
                     <tr>
-                        <td class="container-table_item container-table_blue container-table_second">公開求人</td>
-                        <td class="container-table_lblue container-table_circleText">
+                        <td class="top-table_item top-table_blue top-table_second">公開求人</td>
+                        <td class="top-table_lblue top-table_circleText">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
                             <p>非公開</p>
                         </td>
-                        <td class="container-table_circleText container-table_second">
+                        <td class="top-table_circleText top-table_second">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
                             <p>約13,000件</p>
                         </td>
-                        <td class="container-table_circleText container-table_second">
+                        <td class="top-table_circleText top-table_second">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
                             <p>約20,000件</p>
                         </td>
                     </tr>
                     <tr>
-                        <td class="container-table_item container-table_blue container-table_third">高年収求人</td>
-                        <td class="container-table_lblue container-table_circleText container-table_third">
+                        <td class="top-table_item top-table_blue top-table_third">高年収求人</td>
+                        <td class="top-table_lblue top-table_circleText top-table_third">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
                             <p>非公開</p>
                         </td>
-                        <td class="container-table_circleText container-table_third">
+                        <td class="top-table_circleText top-table_third">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
                             <p>不明</p>
                         </td>
-                        <td class="container-table_circleText container-table_third">
+                        <td class="top-table_circleText top-table_third">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
                             <p>約5,000件</p>
                         </td>
                     </tr>
                     <tr>
-                        <td class="container-table_item container-table_blue container-table_fourth">対応地域</td>
-                        <td class="container-table_lblue container-table_circleText container-table_fourth">
+                        <td class="top-table_item top-table_blue top-table_fourth">対応地域</td>
+                        <td class="top-table_lblue top-table_circleText top-table_fourth">
                             全国
                         </td>
-                        <td class="container-table_circleText container-table_fourth">
+                        <td class="top-table_circleText top-table_fourth">
                             全国
                         </td>
-                        <td class="container-table_circleText container-table_fourth">
+                        <td class="top-table_circleText top-table_fourth">
                             全国
                         </td>
                     </tr>
                     <tr>
-                        <td class="container-table_item container-table_blue container-table_fifth">口コミ<br>評判</td>
-                        <td class="container-table_lblue container-table_reviews container-table_fifth">
+                        <td class="top-table_item top-table_blue top-table_fifth">口コミ<br>評判</td>
+                        <td class="top-table_lblue top-table_reviews top-table_fifth">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="">
                             <a href="">4.5</a>
                         </td>
-                        <td class="container-table_reviews container-table_fifth">
+                        <td class="top-table_reviews top-table_fifth">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="">
                             <a href="">4.5</a>
                         </td>
-                        <td class="container-table_reviews container-table_fifth">
+                        <td class="top-table_reviews top-table_fifth">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="">
                             <a href="">4.5</a>
                         </td>
                     </tr>
                     <tr>
-                        <td
-                            class="container-table_item container-table_itemLast container-table_blue container-table_sixth">
+                        <td class="top-table_item top-table_itemLast top-table_blue top-table_sixth">
                             公式サイト</td>
-                        <td class="container-table_lblue container-table_link container-table_sixth">
+                        <td class="top-table_lblue top-table_link top-table_sixth">
                             <a href="">
                                 公式<br class="display-visible_sp">サイト
                             </a>
                         </td>
-                        <td class="container-table_link container-table_sixth">
+                        <td class="top-table_link top-table_sixth">
                             <a href="">
                                 公式<br class="display-visible_sp">サイト
                             </a>
                         </td>
-                        <td class="container-table_link container-table_sixth">
+                        <td class="top-table_link top-table_sixth">
                             <a href="">
                                 公式<br class="display-visible_sp">サイト
                             </a>
@@ -166,8 +166,8 @@
             <div class="label-blue">
                 <p>あなたにあった求人がきっと見つかる</p>
             </div>
-            <h2 class="title-h2">
-                <span class="title-h2_span">おすすめ理学療法士向け</span><br class="display-visible_sp">転職サイト<span
+            <h2 class="title-h2 top-site_title">
+                <span class="top-site_titleSpan">おすすめ理学療法士向け</span><br class="display-visible_sp">転職サイト<span
                     class="title-h2_orange"><span class="title-h2_num">5</span>選</span>
             </h2>
 
@@ -181,9 +181,12 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site1.png" alt=""
                             class="top-site_item--img">
                         <div class="top-site_box">
-                            <h4 class="title-h4">
-                                高年収求人を狙える<br class="display-visible_sp">おすすめ求人サイト
-                            </h4>
+                            <div class="top-site_line">
+                                <h4 class="title-h4">
+                                    高年収求人を狙える<br class="display-visible_sp">おすすめ求人サイト
+                                </h4>
+                            </div>
+
                             <ul class="top-site_lists">
                                 <li class="top-site_list">
                                     キャリアアップ、<span>高年収を望める求人</span>が多い。
@@ -195,7 +198,7 @@
 
                             <div class="flex top-site_flex">
                                 <div class="top-site_blue">
-                                    こんな方に<br class="display-visible_pc">
+                                    こんな方に<br class="display-invisible_lt">
                                     おすすめ
                                 </div>
                                 <div class="top-site_lblue">
@@ -238,9 +241,11 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site2.png" alt=""
                             class="top-site_item--img">
                         <div class="top-site_box">
-                            <h4 class="title-h4">
-                                充実のサポートで安心の<br class="display-visible_sp">転職サイト
-                            </h4>
+                            <div class="top-site_line">
+                                <h4 class="title-h4">
+                                    充実のサポートで安心の<br class="display-visible_sp">転職サイト
+                                </h4>
+                            </div>
                             <ul class="top-site_lists">
                                 <li class="top-site_list">
                                     転職サポートが充実しており、<span>若手や転職初心者に<br>おすすめ。
@@ -253,7 +258,7 @@
 
                             <div class="flex top-site_flex">
                                 <div class="top-site_blue">
-                                    こんな方に<br class="display-visible_pc">
+                                    こんな方に<br class="display-invisible_lt">
                                     おすすめ
                                 </div>
                                 <div class="top-site_lblue">
@@ -296,9 +301,11 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site3.png" alt=""
                             class="top-site_item--img">
                         <div class="top-site_box">
-                            <h4 class="title-h4">
-                                求人数No.1の転職サイト
-                            </h4>
+                            <div class="top-site_line">
+                                <h4 class="title-h4">
+                                    求人数No.1の転職サイト
+                                </h4>
+                            </div>
                             <ul class="top-site_lists">
                                 <li class="top-site_list">
                                     <span>業界求人数No.1。</span>好条件求人多数。
@@ -310,7 +317,7 @@
 
                             <div class="flex top-site_flex">
                                 <div class="top-site_blue">
-                                    こんな方に<br class="display-visible_pc">
+                                    こんな方に<br class="display-invisible_lt">
                                     おすすめ
                                 </div>
                                 <div class="top-site_lblue">
@@ -353,9 +360,11 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site4.png" alt=""
                             class="top-site_item--img">
                         <div class="top-site_box">
-                            <h4 class="title-h4">
-                                全国対応の万能型の<br class="display-visible_sp">転職サイト
-                            </h4>
+                            <div class="top-site_line">
+                                <h4 class="title-h4">
+                                    全国対応の万能型の<br class="display-visible_sp">転職サイト
+                                </h4>
+                            </div>
                             <ul class="top-site_lists">
                                 <li class="top-site_list">
                                     <span>業界最大級の紹介実績を誇る</span>老舗エージェント。
@@ -368,7 +377,7 @@
 
                             <div class="flex top-site_flex">
                                 <div class="top-site_blue">
-                                    こんな方に<br class="display-visible_pc">
+                                    こんな方に<br class="display-invisible_lt">
                                     おすすめ
                                 </div>
                                 <div class="top-site_lblue">
@@ -411,9 +420,11 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site5.png" alt=""
                             class="top-site_item--img">
                         <div class="top-site_box">
-                            <h4 class="title-h4">
-                                一都三県に強い理学療法士の<br class="display-visible_sp">転職サイト
-                            </h4>
+                            <div class="top-site_line">
+                                <h4 class="title-h4">
+                                    一都三県に強い理学療法士の<br class="display-visible_sp">転職サイト
+                                </h4>
+                            </div>
                             <ul class="top-site_lists">
                                 <li class="top-site_list">
                                     <span>介護施設、クリニック、ジムの求人に強い。</span><br class="display-visible_pc">好条件求人多数。
@@ -425,7 +436,7 @@
 
                             <div class="flex top-site_flex">
                                 <div class="top-site_blue">
-                                    こんな方に<br class="display-visible_pc">
+                                    こんな方に<br class="display-invisible_lt">
                                     おすすめ
                                 </div>
                                 <div class="top-site_lblue">
@@ -466,12 +477,12 @@
     <section class="top-flow">
         <div class="container">
 
-            <div class="label-blue">
+            <div class="label-blue top-flow_label">
                 <p>一発で理解できる！！</p>
             </div>
-            <h2 class="title-h2">
-                <span class="title-h2_span">理学療法士の</span><br class="display-visible_sp">転職活動<span
-                    class="title-h2_span">の</span>流れ</span>
+            <h2 class="title-h2 top-flow_title">
+                <span class="top-flow_titleSpan">理学療法士の</span><br class="display-visible_sp">転職活動<span
+                    class="top-flow_titleSpan">の</span>流れ</span>
             </h2>
 
             <div class="top-flow_step">
@@ -851,8 +862,8 @@
     <section class="top-faq">
         <div class="container">
 
-            <h2 class="title-h2">
-                <span class="title-h2_span">理学療法士の転職に関する</span><br>よくある質問
+            <h2 class="title-h2 top-faq_title">
+                <span class="top-faq_titleSpan">理学療法士の転職に関する</span><br>よくある質問
             </h2>
 
             <div class="top-faq_items">
@@ -964,7 +975,7 @@
             <div class="label-blue">
                 <p>理学療法士の転職について<br class="display-visible_sp">詳しく知りたい</p>
             </div>
-            <h2 class="title-h2">
+            <h2 class="title-h2 top-column_tltle">
                 コラム最新記事一覧
             </h2>
 
@@ -984,9 +995,6 @@
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     </section>
 

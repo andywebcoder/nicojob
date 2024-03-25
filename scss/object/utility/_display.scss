@@ -21,12 +21,28 @@
         }
     }
 
-    &_pc {
+    
+}
+.display-invisible{
+    &_sp {
         display: none;
     
         @include v.tab {
             display: block;
         }
     }
+    &_tab {
+        display: none;
+    
+        @include v.tab {
+            display: block;
+        }
+    }
+    &_lt {
+        display: none;
+    
+        @include v.lt {
+            display: block;
+        }
+    }
 }
-
