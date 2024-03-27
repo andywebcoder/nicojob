@@ -1,11 +1,6 @@
 <?php get_header(); ?>
 
 <main>
-    <?php
-    if (function_exists('bcn_display')) {
-        bcn_display();
-    }
-    ?>
 
     <section class="top-fv">
         <div class="container">
@@ -14,7 +9,7 @@
                     高給与
                 </div>
                 <div class="top-fv_item">
-                    残業無し
+                    残業なし
                 </div>
                 <div class="top-fv_item">
                     土日休み
@@ -53,15 +48,18 @@
                             <div class="top-table_headImg">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/table1.png" alt="">
                             </div>
-                            <a href="" class="top-table_headlink">レバウェル<br class="display-visible_sp">リハビリ</a>
+                            <a href="" class="top-table_headlink hover-opacity">レバウェル<br
+                                    class="display-visible_sp">リハビリ</a>
                         </td>
                         <td class="top-table_column2 top-table_head">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/table2.png" alt="">
-                            <a href="" class="top-table_headlink">マイナビ<br class="display-visible_sp">コメディカル</a>
+                            <a href="" class="top-table_headlink hover-opacity">マイナビ<br
+                                    class="display-visible_sp">コメディカル</a>
                         </td>
                         <td class="top-table_column3 top-table_head">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/table3.png" alt="">
-                            <a href="" class="top-table_headlink">PTOTST<br class="display-visible_sp">ワーカー</a>
+                            <a href="" class="top-table_headlink hover-opacity">PTOTST<br
+                                    class="display-visible_sp">ワーカー</a>
                         </td>
                     </tr>
                     <tr>
@@ -124,33 +122,39 @@
                     <tr>
                         <td class="top-table_item top-table_blue top-table_fifth">口コミ<br>評判</td>
                         <td class="top-table_lblue top-table_reviews top-table_fifth">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="">
-                            <a href="">4.5</a>
+                            <div class="flex top-table_reviewsFlex">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="">
+                                <span>4.5</span>
+                            </div>
                         </td>
                         <td class="top-table_reviews top-table_fifth">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="">
-                            <a href="">4.5</a>
+                            <div class="flex top-table_reviewsFlex">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="">
+                                <span>4.5</span>
+                            </div>
                         </td>
                         <td class="top-table_reviews top-table_fifth">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="">
-                            <a href="">4.5</a>
+                            <div class="flex top-table_reviewsFlex">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="">
+                                <span>4.5</span>
+                            </div>
                         </td>
                     </tr>
                     <tr>
                         <td class="top-table_item top-table_itemLast top-table_blue top-table_sixth">
                             公式サイト</td>
                         <td class="top-table_lblue top-table_link top-table_sixth">
-                            <a href="">
+                            <a href="" class="hover-opacity">
                                 公式<br class="display-visible_sp">サイト
                             </a>
                         </td>
                         <td class="top-table_link top-table_sixth">
-                            <a href="">
+                            <a href="" class="hover-opacity">
                                 公式<br class="display-visible_sp">サイト
                             </a>
                         </td>
                         <td class="top-table_link top-table_sixth">
-                            <a href="">
+                            <a href="" class="hover-opacity">
                                 公式<br class="display-visible_sp">サイト
                             </a>
                         </td>
@@ -218,12 +222,12 @@
                     <div class="top-site_official">
                         <div class="lable-official">
                             <span class="lable-official_text">簡単<span class="lable-official_num">1</span>分で登録！</span>
-                            <a href="" class="lable-official_link">
+                            <a href="" class="lable-official_link hover-opacity">
                                 公式サイトはこちら
                             </a>
                         </div>
 
-                        <a href="" class="top-site_review">
+                        <a href="" class="top-site_review hover-opacity">
                             <div class="flex top-site_review--flex">
                                 <p>評判・口コミはこちら</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/right_arrow.png"
@@ -278,12 +282,12 @@
                     <div class="top-site_official">
                         <div class="lable-official">
                             <span class="lable-official_text">簡単<span class="lable-official_num">1</span>分で登録！</span>
-                            <a href="" class="lable-official_link">
+                            <a href="" class="lable-official_link hover-opacity">
                                 公式サイトはこちら
                             </a>
                         </div>
 
-                        <a href="" class="top-site_review">
+                        <a href="" class="top-site_review hover-opacity">
                             <div class="flex top-site_review--flex">
                                 <p>評判・口コミはこちら</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/right_arrow.png"
@@ -337,12 +341,12 @@
                     <div class="top-site_official">
                         <div class="lable-official">
                             <span class="lable-official_text">簡単<span class="lable-official_num">1</span>分で登録！</span>
-                            <a href="" class="lable-official_link">
+                            <a href="" class="lable-official_link hover-opacity">
                                 公式サイトはこちら
                             </a>
                         </div>
 
-                        <a href="" class="top-site_review">
+                        <a href="" class="top-site_review hover-opacity">
                             <div class="flex top-site_review--flex">
                                 <p>評判・口コミはこちら</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/right_arrow.png"
@@ -397,12 +401,12 @@
                     <div class="top-site_official">
                         <div class="lable-official">
                             <span class="lable-official_text">簡単<span class="lable-official_num">1</span>分で登録！</span>
-                            <a href="" class="lable-official_link">
+                            <a href="" class="lable-official_link hover-opacity">
                                 公式サイトはこちら
                             </a>
                         </div>
 
-                        <a href="" class="top-site_review">
+                        <a href="" class="top-site_review hover-opacity">
                             <div class="flex top-site_review--flex">
                                 <p>評判・口コミはこちら</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/right_arrow.png"
@@ -456,12 +460,12 @@
                     <div class="top-site_official">
                         <div class="lable-official">
                             <span class="lable-official_text">簡単<span class="lable-official_num">1</span>分で登録！</span>
-                            <a href="" class="lable-official_link">
+                            <a href="" class="lable-official_link hover-opacity">
                                 公式サイトはこちら
                             </a>
                         </div>
 
-                        <a href="" class="top-site_review">
+                        <a href="" class="top-site_review hover-opacity">
                             <div class="flex top-site_review--flex">
                                 <p>評判・口コミはこちら</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/right_arrow.png"
@@ -498,11 +502,10 @@
                                 <p class="top-flow_item--text">
                                     転職準備
                                 </p>
-                                <a href="#01">
+                                <a href="#01" class="hover-opacity">
                                     <span class="top-flow_circle"></span>
                                 </a>
                             </div>
-
                         </div>
                     </div>
 
@@ -516,7 +519,7 @@
                                 <p class="top-flow_item--text">
                                     情報収集
                                 </p>
-                                <a href="#02">
+                                <a href="#02" class="hover-opacity">
                                     <span class="top-flow_circle"></span>
                                 </a>
                             </div>
@@ -533,7 +536,7 @@
                                 <p class="top-flow_item--text">
                                     書類作成・<br class="display-visible_sp">応募
                                 </p>
-                                <a href="#03">
+                                <a href="#03" class="hover-opacity">
                                     <span class="top-flow_circle"></span>
                                 </a>
                             </div>
@@ -550,7 +553,7 @@
                                 <p class="top-flow_item--text">
                                     面接
                                 </p>
-                                <a href="#04">
+                                <a href="#04" class="hover-opacity">
                                     <span class="top-flow_circle"></span>
                                 </a>
                             </div>
@@ -567,7 +570,7 @@
                                 <p class="top-flow_item--text">
                                     内定
                                 </p>
-                                <a href="#05">
+                                <a href="#05" class="hover-opacity">
                                     <span class="top-flow_circle"></span>
                                 </a>
                             </div>
@@ -584,7 +587,7 @@
                                 <p class="top-flow_item--text">
                                     退職手続き・<br class="display-visible_sp">退職
                                 </p>
-                                <a href="#06">
+                                <a href="#06" class="hover-opacity">
                                     <span class="top-flow_circle"></span>
                                 </a>
                             </div>
@@ -876,12 +879,16 @@
                         </p>
                         <span class="top-faq_qFlex--symbol"></span>
                     </div>
-                    <div class="flex top-faq_aFlex">
-                        <div class="top-faq_a">A</div>
-                        <p class="top-faq_ansText">
-                            厚生労働省の<a href="">「令和３年賃金構造基本統計調査｜厚生労働省」</a>によると、理学療法士の平均年収は426.5万円(平均年齢35.1歳)です。
-                        </p>
+                    <div class="top-faq_ans">
+                        <div class="flex top-faq_aFlex">
+                            <div class="top-faq_a">A</div>
+                            <p class="top-faq_ansText">
+                                厚生労働省の<a href=""
+                                    class="hover-opacity">「令和３年賃金構造基本統計調査｜厚生労働省」</a>によると、理学療法士の平均年収は426.5万円(平均年齢35.1歳)です。
+                            </p>
+                        </div>
                     </div>
+
                 </div>
 
                 <div class="top-faq_item">
@@ -892,12 +899,14 @@
                         </p>
                         <span class="top-faq_qFlex--symbol"></span>
                     </div>
-                    <div class="flex top-faq_aFlex">
-                        <div class="top-faq_a">A</div>
-                        <p class="top-faq_ansText">
-                            経験年数1年目でも転職はできます。どうしても職場が合わず、辛くてしんどいと感じているなら新しい道を探すべき。若手にオススメの転職サイトは<a
-                                href="">マイナビコメディカル</a>です。無料で転職相談からしてみることをオススメします。
-                        </p>
+                    <div class="top-faq_ans">
+                        <div class="flex top-faq_aFlex">
+                            <div class="top-faq_a">A</div>
+                            <p class="top-faq_ansText">
+                                経験年数1年目でも転職はできます。どうしても職場が合わず、辛くてしんどいと感じているなら新しい道を探すべき。若手にオススメの転職サイトは<a
+                                    href="">マイナビコメディカル</a>です。無料で転職相談からしてみることをオススメします。
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -909,12 +918,15 @@
                         </p>
                         <span class="top-faq_qFlex--symbol"></span>
                     </div>
-                    <div class="flex top-faq_aFlex">
-                        <div class="top-faq_a">A</div>
-                        <p class="top-faq_ansText">
-                            もちろん可能です。ただし、理学療法士として一般企業で働いている人の割合はまだまだ少ないのが現状。理学療法士から一般企業への転職は、<a href="">リクルートエージェント</a>
-                            といった一般転職向けのエージェントを活用しましょう。
-                        </p>
+                    <div class="top-faq_ans">
+                        <div class="flex top-faq_aFlex">
+                            <div class="top-faq_a">A</div>
+                            <p class="top-faq_ansText">
+                                もちろん可能です。ただし、理学療法士として一般企業で働いている人の割合はまだまだ少ないのが現状。理学療法士から一般企業への転職は、<a href=""
+                                    class="hover-opacity">リクルートエージェント</a>
+                                といった一般転職向けのエージェントを活用しましょう。
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -926,12 +938,14 @@
                         </p>
                         <span class="top-faq_qFlex--symbol"></span>
                     </div>
-                    <div class="flex top-faq_aFlex">
-                        <div class="top-faq_a">A</div>
-                        <p class="top-faq_ansText">
-                            転職に適した時期、つま理学療法士の求人が多い時期は2月～3月上旬ついで8月～9月上旬です。
-                            転職開始から入職までの期間を2～3か月とみると、12月もしくは6月が転職活動をスタートさせるベストタイミングといえます。
-                        </p>
+                    <div class="top-faq_ans">
+                        <div class="flex top-faq_aFlex">
+                            <div class="top-faq_a">A</div>
+                            <p class="top-faq_ansText">
+                                転職に適した時期、つま理学療法士の求人が多い時期は2月～3月上旬ついで8月～9月上旬です。
+                                転職開始から入職までの期間を2～3か月とみると、12月もしくは6月が転職活動をスタートさせるベストタイミングといえます。
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -943,11 +957,13 @@
                         </p>
                         <span class="top-faq_qFlex--symbol"></span>
                     </div>
-                    <div class="flex top-faq_aFlex">
-                        <div class="top-faq_a">A</div>
-                        <p class="top-faq_ansText">
-                            基本的には保険・税金の面倒な手続きが不要で収入も途絶えないため、在職中に転職活動を進めておくのがおすすめです。
-                        </p>
+                    <div class="top-faq_ans">
+                        <div class="flex top-faq_aFlex">
+                            <div class="top-faq_a">A</div>
+                            <p class="top-faq_ansText">
+                                基本的には保険・税金の面倒な手続きが不要で収入も途絶えないため、在職中に転職活動を進めておくのがおすすめです。
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -959,11 +975,13 @@
                         </p>
                         <span class="top-faq_qFlex--symbol"></span>
                     </div>
-                    <div class="flex top-faq_aFlex">
-                        <div class="top-faq_a">A</div>
-                        <p class="top-faq_ansText">
-                            30代、40代の理学療法士でも応募できる求人は全然あります。しかし、年齢を重ねるごとに採用のハードルは高くなる点は注意が必要。好条件な転職をしたいなら、なるべく若いうちから行動をすべきです。
-                        </p>
+                    <div class="top-faq_ans">
+                        <div class="flex top-faq_aFlex">
+                            <div class="top-faq_a">A</div>
+                            <p class="top-faq_ansText">
+                                30代、40代の理学療法士でも応募できる求人は全然あります。しかし、年齢を重ねるごとに採用のハードルは高くなる点は注意が必要。好条件な転職をしたいなら、なるべく若いうちから行動をすべきです。
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -980,20 +998,70 @@
             </h2>
 
             <div class="top-column_items">
-                <div class="flex top-column_flex">
-                    <div class="top-column_item">
-                        <img src="" alt="">
-                        <p class=""></p>
-                        <div class="flex">
-                            <p class="">
-                                カテゴリ
-                            </p>
-                            <p class="">
-                                2023.00.00
-                            </p>
-                        </div>
+                <ul class="top-column_lists">
+                    <div class="flex top-column_flex">
+                        <?php
+                            if (get_query_var('paged')) { 
+                                // archive.phpやsingle.phpなどのテンプレートファイルじゃない 
+                                // ところでページネーションを作る場合
+                                $paged = get_query_var('paged');
+
+                            } elseif (get_query_var('page')) {
+                                // 固定ページでページネーションを作る場合
+
+                                $paged = get_query_var('page'); 
+                            } else { 
+                                // 上記以外（1ページの時） 
+                                $paged = 1; 
+                            }
+                            $args = [
+                                'post_type' => 'post',
+                                'paged' => $paged,
+                                'order' => 'DESC',
+                                'posts_per_page' => 6,
+                            ];
+                            $WP_post = new WP_Query($args);
+
+                            if ($WP_post->have_posts()) {
+                                while ($WP_post->have_posts()) {
+                                    $WP_post->the_post(); ?>
+
+                        <li class="top-column_list">
+                            <a class="top-column_link hover-opacity" href="<?php echo get_permalink(); ?>">
+
+                                <?php if ( has_post_thumbnail() ) : ?>
+                                <?php the_post_thumbnail( 'eyecatch' ); ?>
+                                <?php else : ?>
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/column.png" alt="デフォルト画像">
+                                <?php endif ; ?>
+                                <div class="top-column_listDesc">
+                                    <div class="flex top-column_reverse">
+                                        <div class="top-column_listFlex">
+                                            <?php
+                                                $category = get_the_category();
+                                                if ( $category[0] ) {
+                                                    echo '<a href="' . get_category_link( $category[0]->term_id ) . '" class="top-column_category">' . $category[0]->cat_name . '</a>';
+                                                }
+                                            ?>
+                                            <span class="top-column_listDate">
+                                                <?php echo get_the_date('Y.m.d'); ?>
+                                            </span>
+                                        </div>
+                                        <a href="<?php echo get_permalink(); ?>">
+                                            <h3 class="top-column_listTitle">
+                                                <?php the_title(); ?>
+                                            </h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <?php
+                                }
+                            }
+                        ?>
                     </div>
-                </div>
+                </ul>
             </div>
         </div>
     </section>

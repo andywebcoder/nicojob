@@ -1,12 +1,12 @@
 @use "../../foundation/variables" as v;
 
 .hover {
-//     &-opacity {
-//         transition: .3s all;
-//         &:hover {
-//             opacity: .8;
-//         }
-//     }
+    &-opacity {
+        transition: .3s all;
+        &:hover {
+            opacity: .8;
+        }
+    }
 // 
 //     &-scale {
 //         div {

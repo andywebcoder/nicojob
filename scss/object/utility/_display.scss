@@ -1,8 +1,6 @@
 @use "../../foundation/variables" as v;
 
 // 共通
-
-
 .display-visible {
     &_sp {
         @include v.tab {
@@ -19,9 +17,7 @@
         @include v.pc {
             display: none;
         }
-    }
-
-    
+    }    
 }
 .display-invisible{
     &_sp {

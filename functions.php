@@ -85,10 +85,12 @@ function original_css_js_init()
     //JSはこの中に書いてください
     if (!is_admin()) {
         wp_deregister_script('jquery');
-        wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.7.1.min.js', array(), NULL, true); 
-        wp_enqueue_script('inview', get_template_directory_uri() . '/assets/js/jquery.inview.min.js', array('jquery'), NULL, true);   
+        wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.7.1.min.js', array(), NULL, true);
         wp_enqueue_script('site', get_template_directory_uri() . '/assets/js/site.js', array(), NULL, true);
-
     }
 }
 add_action('wp_enqueue_scripts', 'original_css_js_init');
+
+// 投稿にサムネイルを許可
+add_theme_support('post-thumbnails');
+add_image_size( 'eyecatch', 311, 182, true );

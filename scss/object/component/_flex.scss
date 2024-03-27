@@ -14,10 +14,6 @@
 
     &-reverse {
         flex-wrap: wrap-reverse;
-
-        @include v.tab {
-            flex-wrap: nowrap;
-        }
     }
 
     &-container {
