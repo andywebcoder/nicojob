@@ -2,9 +2,9 @@
 
 
 main {
-    margin-top: 80px;
+    margin-top: 50px;
 
     @include v.lt {
-        margin-top: 105px;
+        margin-top: 75px;
     }
 }

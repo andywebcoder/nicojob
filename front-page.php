@@ -43,67 +43,72 @@
                         </td>
                         <td class="top-table_column1 top-table_head top-table_head1 top-table_line">
                             <div class="top-table_headNoImg">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/no1.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/no1.png"
+                                    alt="おすすめNo1">
                             </div>
                             <div class="top-table_headImg">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/table1.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/table1.png"
+                                    alt="レバウェルリハビリ">
                             </div>
                             <a href="" class="top-table_headlink hover-opacity">レバウェル<br
-                                    class="display-visible_sp">リハビリ</a>
+                                    class="display-visible_tab">リハビリ</a>
                         </td>
                         <td class="top-table_column2 top-table_head">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/table2.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/table2.png"
+                                alt="マイナビコメディカル">
                             <a href="" class="top-table_headlink hover-opacity">マイナビ<br
-                                    class="display-visible_sp">コメディカル</a>
+                                    class="display-visible_tab">コメディカル</a>
                         </td>
                         <td class="top-table_column3 top-table_head">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/table3.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/table3.png"
+                                alt="PTOTSTワーカー">
                             <a href="" class="top-table_headlink hover-opacity">PTOTST<br
-                                    class="display-visible_sp">ワーカー</a>
+                                    class="display-visible_tab">ワーカー</a>
                         </td>
                     </tr>
                     <tr>
                         <td class="top-table_item top-table_blue">特徴</td>
                         <td class="top-table_lblue top-table_text">
-                            年収アップ・<br class="display-visible_sp">キャリア<br class="display-visible_pc">
-                            アップを<br class="display-visible_sp">狙うならココ
+                            年収アップ・<br class="display-visible_tab">キャリア<br class="display-visible_pc">
+                            アップを<br class="display-visible_tab">狙うならココ
                         </td>
                         <td class="top-table_text">
                             大手マイナビ運営<br>
-                            転職サポート<br class="display-visible_sp">が手厚い
+                            転職サポート<br class="display-visible_tab">が手厚い
                         </td>
                         <td class="top-table_text">
                             求人数No.1<br>
-                            好条件<br class="display-visible_sp">求人が豊富
+                            好条件<br class="display-visible_tab">求人が豊富
                         </td>
                     </tr>
                     <tr>
                         <td class="top-table_item top-table_blue top-table_second">公開求人</td>
                         <td class="top-table_lblue top-table_circleText">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="二重丸">
                             <p>非公開</p>
                         </td>
                         <td class="top-table_circleText top-table_second">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="二重丸">
                             <p>約13,000件</p>
                         </td>
                         <td class="top-table_circleText top-table_second">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="二重丸">
                             <p>約20,000件</p>
                         </td>
                     </tr>
                     <tr>
-                        <td class="top-table_item top-table_blue top-table_third">高年収求人</td>
+                        <td class="top-table_item top-table_blue top-table_third">高年収<br class="display-visible_tab">求人
+                        </td>
                         <td class="top-table_lblue top-table_circleText top-table_third">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="二重丸">
                             <p>非公開</p>
                         </td>
                         <td class="top-table_circleText top-table_third">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="二重丸">
                             <p>不明</p>
                         </td>
                         <td class="top-table_circleText top-table_third">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/circle.png" alt="二重丸">
                             <p>約5,000件</p>
                         </td>
                     </tr>
@@ -123,39 +128,42 @@
                         <td class="top-table_item top-table_blue top-table_fifth">口コミ<br>評判</td>
                         <td class="top-table_lblue top-table_reviews top-table_fifth">
                             <div class="flex top-table_reviewsFlex">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="評判">
                                 <span>4.5</span>
                             </div>
                         </td>
                         <td class="top-table_reviews top-table_fifth">
                             <div class="flex top-table_reviewsFlex">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="評判">
                                 <span>4.5</span>
                             </div>
                         </td>
                         <td class="top-table_reviews top-table_fifth">
                             <div class="flex top-table_reviewsFlex">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/star.png" alt="評判">
                                 <span>4.5</span>
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td class="top-table_item top-table_itemLast top-table_blue top-table_sixth">
-                            公式サイト</td>
+                            公式<br class="display-visible_tab">サイト</td>
                         <td class="top-table_lblue top-table_link top-table_sixth">
-                            <a href="" class="hover-opacity">
-                                公式<br class="display-visible_sp">サイト
+                            <a href="https://reha-oshigoto.jp/lp/1/?mid=3774&utm_campaign=main&utm_medium=affiliate&utm_source=mediPartner&APID=31061&affID=1004&STID=14041&trflg=1"
+                                class="hover-opacity">
+                                公式<br class="display-visible_tab">サイト
                             </a>
                         </td>
                         <td class="top-table_link top-table_sixth">
-                            <a href="" class="hover-opacity">
-                                公式<br class="display-visible_sp">サイト
+                            <a href="https://co-medical.mynavi.jp/lp/pos/030-s2.html?utm_source=MP_pos&utm_medium=cpa&utm_campaign=MP_pos&nst=0&APID=31013&affID=1004&STID=14041&userID=&click_only="
+                                class="hover-opacity">
+                                公式<br class="display-visible_tab">サイト
                             </a>
                         </td>
                         <td class="top-table_link top-table_sixth">
-                            <a href="" class="hover-opacity">
-                                公式<br class="display-visible_sp">サイト
+                            <a href="https://www.ptotjinzaibank.com/glp/afi_000?action=rjb_pcafnc_common&fpc=4257.1551.60.50006439660568dW.1716777477000"
+                                class="hover-opacity">
+                                公式<br class="display-visible_tab">サイト
                             </a>
                         </td>
                     </tr>
@@ -182,8 +190,10 @@
                         レバウェルリハビリ
                     </h3>
                     <div class="flex flex-column top-site_item--flex">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site1.png" alt=""
-                            class="top-site_item--img">
+                        <div class="top-site_itemBox top-site_itemBox1">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/recruit1.png"
+                                alt="レバウェルリハビリ" class="top-site_item--img top-site_item--img1">
+                        </div>
                         <div class="top-site_box">
                             <div class="top-site_line">
                                 <h4 class="title-h4">
@@ -202,8 +212,7 @@
 
                             <div class="flex top-site_flex">
                                 <div class="top-site_blue">
-                                    こんな方に<br class="display-invisible_lt">
-                                    おすすめ
+                                    こんな方に<br class="display-invisible_lt">おすすめ
                                 </div>
                                 <div class="top-site_lblue">
                                     <p class="top-site_lblue--text">
@@ -222,7 +231,8 @@
                     <div class="top-site_official">
                         <div class="lable-official">
                             <span class="lable-official_text">簡単<span class="lable-official_num">1</span>分で登録！</span>
-                            <a href="" class="lable-official_link hover-opacity">
+                            <a href="https://reha-oshigoto.jp/lp/1/?mid=3774&utm_campaign=main&utm_medium=affiliate&utm_source=mediPartner&APID=31061&affID=1004&STID=14041&trflg=1"
+                                class="lable-official_link hover-opacity">
                                 公式サイトはこちら
                             </a>
                         </div>
@@ -231,7 +241,7 @@
                             <div class="flex top-site_review--flex">
                                 <p>評判・口コミはこちら</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/right_arrow.png"
-                                    alt="">
+                                    alt="矢印">
                             </div>
                         </a>
                     </div>
@@ -242,15 +252,19 @@
                         マイナビコメディカル
                     </h3>
                     <div class="flex flex-column top-site_item--flex">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site2.png" alt=""
-                            class="top-site_item--img">
+                        <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site2.png" alt="マイナビコメディカル"
+                            class="top-site_item--img"> -->
+                        <div class="top-site_itemBox top-site_itemBox2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/recruit2.png"
+                                alt="マイナビコメディカル" class="top-site_item--img top-site_item--img2">
+                        </div>
                         <div class="top-site_box">
                             <div class="top-site_line">
                                 <h4 class="title-h4">
                                     充実のサポートで安心の<br class="display-visible_sp">転職サイト
                                 </h4>
                             </div>
-                            <ul class="top-site_lists">
+                            <ul class="top-site_lists top-site_lists2">
                                 <li class="top-site_list">
                                     転職サポートが充実しており、<span>若手や転職初心者に<br>おすすめ。
                                     </span>
@@ -262,8 +276,7 @@
 
                             <div class="flex top-site_flex">
                                 <div class="top-site_blue">
-                                    こんな方に<br class="display-invisible_lt">
-                                    おすすめ
+                                    こんな方に<br class="display-invisible_lt">おすすめ
                                 </div>
                                 <div class="top-site_lblue">
                                     <p class="top-site_lblue--text">
@@ -291,7 +304,7 @@
                             <div class="flex top-site_review--flex">
                                 <p>評判・口コミはこちら</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/right_arrow.png"
-                                    alt="">
+                                    alt="矢印">
                             </div>
                         </a>
                     </div>
@@ -302,8 +315,12 @@
                         PTOTSTワーカー
                     </h3>
                     <div class="flex flex-column top-site_item--flex">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site3.png" alt=""
-                            class="top-site_item--img">
+                        <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site3.png" alt="PTOTSTワーカー"
+                            class="top-site_item--img"> -->
+                        <div class="top-site_itemBox top-site_itemBox3">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/recruit3.png"
+                                alt="PTOTSTワーカー" class="top-site_item--img top-site_item--img3">
+                        </div>
                         <div class="top-site_box">
                             <div class="top-site_line">
                                 <h4 class="title-h4">
@@ -321,8 +338,7 @@
 
                             <div class="flex top-site_flex">
                                 <div class="top-site_blue">
-                                    こんな方に<br class="display-invisible_lt">
-                                    おすすめ
+                                    こんな方に<br class="display-invisible_lt">おすすめ
                                 </div>
                                 <div class="top-site_lblue">
                                     <p class="top-site_lblue--text">
@@ -350,7 +366,7 @@
                             <div class="flex top-site_review--flex">
                                 <p>評判・口コミはこちら</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/right_arrow.png"
-                                    alt="">
+                                    alt="矢印">
                             </div>
                         </a>
                     </div>
@@ -361,15 +377,19 @@
                         PTOT人材バンク
                     </h3>
                     <div class="flex flex-column top-site_item--flex">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site4.png" alt=""
-                            class="top-site_item--img">
+                        <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site4.png" alt="PTOT人材バンク"
+                            class="top-site_item--img"> -->
+                        <div class="top-site_itemBox top-site_itemBox4">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/recruit4.png"
+                                alt="PTOT人材バンク" class="top-site_item--img top-site_item--img4">
+                        </div>
                         <div class="top-site_box">
                             <div class="top-site_line">
                                 <h4 class="title-h4">
                                     全国対応の万能型の<br class="display-visible_sp">転職サイト
                                 </h4>
                             </div>
-                            <ul class="top-site_lists">
+                            <ul class="top-site_lists top-site_lists2">
                                 <li class="top-site_list">
                                     <span>業界最大級の紹介実績を誇る</span>老舗エージェント。
                                     ハローワークの求人あり。
@@ -381,8 +401,7 @@
 
                             <div class="flex top-site_flex">
                                 <div class="top-site_blue">
-                                    こんな方に<br class="display-invisible_lt">
-                                    おすすめ
+                                    こんな方に<br class="display-invisible_lt">おすすめ
                                 </div>
                                 <div class="top-site_lblue">
                                     <p class="top-site_lblue--text">
@@ -410,7 +429,7 @@
                             <div class="flex top-site_review--flex">
                                 <p>評判・口コミはこちら</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/right_arrow.png"
-                                    alt="">
+                                    alt="矢印">
                             </div>
                         </a>
                     </div>
@@ -421,15 +440,19 @@
                         PTOTキャリアナビ
                     </h3>
                     <div class="flex flex-column top-site_item--flex">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site5.png" alt=""
-                            class="top-site_item--img">
+                        <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/site5.png" alt="PTOTキャリアナビ"
+                            class="top-site_item--img"> -->
+                        <div class="top-site_itemBox top-site_itemBox5">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/recruit5.png"
+                                alt="PTOTキャリアナビ" class="top-site_item--img top-site_item--img5">
+                        </div>
                         <div class="top-site_box">
                             <div class="top-site_line">
                                 <h4 class="title-h4">
                                     一都三県に強い理学療法士の<br class="display-visible_sp">転職サイト
                                 </h4>
                             </div>
-                            <ul class="top-site_lists">
+                            <ul class="top-site_lists top-site_lists2">
                                 <li class="top-site_list">
                                     <span>介護施設、クリニック、ジムの求人に強い。</span><br class="display-visible_pc">好条件求人多数。
                                 </li>
@@ -440,8 +463,7 @@
 
                             <div class="flex top-site_flex">
                                 <div class="top-site_blue">
-                                    こんな方に<br class="display-invisible_lt">
-                                    おすすめ
+                                    こんな方に<br class="display-invisible_lt">おすすめ
                                 </div>
                                 <div class="top-site_lblue">
                                     <p class="top-site_lblue--text">
@@ -469,7 +491,7 @@
                             <div class="flex top-site_review--flex">
                                 <p>評判・口コミはこちら</p>
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/right_arrow.png"
-                                    alt="">
+                                    alt="矢印">
                             </div>
                         </a>
                     </div>
@@ -498,14 +520,12 @@
                                 <span class="top-flow_item--step">STEP</span>
                                 <p class="top-flow_item--num">01</p>
                             </div>
-                            <div class="flex top-flow_item--textFlex">
+                            <a href="#01" class="flex top-flow_item--textFlex hover-opacity">
                                 <p class="top-flow_item--text">
                                     転職準備
                                 </p>
-                                <a href="#01" class="hover-opacity">
-                                    <span class="top-flow_circle"></span>
-                                </a>
-                            </div>
+                                <span class="top-flow_circle"></span>
+                            </a>
                         </div>
                     </div>
 
@@ -515,14 +535,12 @@
                                 <span class="top-flow_item--step">STEP</span>
                                 <p class="top-flow_item--num">02</p>
                             </div>
-                            <div class="flex top-flow_item--textFlex">
+                            <a href="#02" class="flex top-flow_item--textFlex hover-opacity">
                                 <p class="top-flow_item--text">
                                     情報収集
                                 </p>
-                                <a href="#02" class="hover-opacity">
-                                    <span class="top-flow_circle"></span>
-                                </a>
-                            </div>
+                                <span class="top-flow_circle"></span>
+                            </a>
                         </div>
                     </div>
 
@@ -532,14 +550,12 @@
                                 <span class="top-flow_item--step">STEP</span>
                                 <p class="top-flow_item--num">03</p>
                             </div>
-                            <div class="flex top-flow_item--textFlex">
+                            <a href="#03" class="flex top-flow_item--textFlex hover-opacity">
                                 <p class="top-flow_item--text">
                                     書類作成・<br class="display-visible_sp">応募
                                 </p>
-                                <a href="#03" class="hover-opacity">
-                                    <span class="top-flow_circle"></span>
-                                </a>
-                            </div>
+                                <span class="top-flow_circle"></span>
+                            </a>
                         </div>
                     </div>
 
@@ -549,14 +565,12 @@
                                 <span class="top-flow_item--step">STEP</span>
                                 <p class="top-flow_item--num">04</p>
                             </div>
-                            <div class="flex top-flow_item--textFlex">
+                            <a href="#04" class="flex top-flow_item--textFlex hover-opacity">
                                 <p class="top-flow_item--text">
                                     面接
                                 </p>
-                                <a href="#04" class="hover-opacity">
-                                    <span class="top-flow_circle"></span>
-                                </a>
-                            </div>
+                                <span class="top-flow_circle"></span>
+                            </a>
                         </div>
                     </div>
 
@@ -566,14 +580,12 @@
                                 <span class="top-flow_item--step">STEP</span>
                                 <p class="top-flow_item--num">05</p>
                             </div>
-                            <div class="flex top-flow_item--textFlex">
+                            <a href="#05" class="flex top-flow_item--textFlex hover-opacity">
                                 <p class="top-flow_item--text">
                                     内定
                                 </p>
-                                <a href="#05" class="hover-opacity">
-                                    <span class="top-flow_circle"></span>
-                                </a>
-                            </div>
+                                <span class="top-flow_circle"></span>
+                            </a>
                         </div>
                     </div>
 
@@ -583,14 +595,12 @@
                                 <span class="top-flow_item--step">STEP</span>
                                 <p class="top-flow_item--num">06</p>
                             </div>
-                            <div class="flex top-flow_item--textFlex">
+                            <a href="#06" class="flex top-flow_item--textFlex hover-opacity">
                                 <p class="top-flow_item--text">
                                     退職手続き・<br class="display-visible_sp">退職
                                 </p>
-                                <a href="#06" class="hover-opacity">
-                                    <span class="top-flow_circle"></span>
-                                </a>
-                            </div>
+                                <span class="top-flow_circle"></span>
+                            </a>
                         </div>
                     </div>
 
@@ -660,7 +670,7 @@
                         </div>
                     </div>
                     <div class="top-flow_detail--img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow.png" alt="矢印">
                     </div>
                 </div>
 
@@ -720,7 +730,7 @@
                         </div>
                     </div>
                     <div class="top-flow_detail--img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow.png" alt="矢印">
                     </div>
                 </div>
 
@@ -739,7 +749,7 @@
                                 <p class="top-flow_detail--blueText">
                                     この2つを用意する！
                                 </p>
-                                <div class="top-flow_detail--clip">
+                                <div class="top-flow_detail--clip top-flow_detail--clip3">
                                     <ul class="top-flow_detail--lists">
                                         <li class="flex top-flow_detail--list">
                                             <span class="top-flow_detail--listNum">01</span>
@@ -758,12 +768,12 @@
 
                         </div>
                         <div class="top-flow_detailItemRight">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/step3.png" alt=""
-                                class="top-flow_detailItemRightImg">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/step3.png"
+                                alt="書類作成・応募" class="top-flow_detailItemRightImg">
                         </div>
                     </div>
                     <div class="top-flow_detail--img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow.png" alt="矢印">
                     </div>
                 </div>
 
@@ -811,12 +821,12 @@
 
                         </div>
                         <div class="top-flow_detailItemRight">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/step4.png" alt=""
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/step4.png" alt="面接"
                                 class="top-flow_detailItemRightImg">
                         </div>
                     </div>
                     <div class="top-flow_detail--img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow.png" alt="矢印">
                     </div>
                 </div>
 
@@ -835,7 +845,7 @@
                         </p>
                     </div>
                     <div class="top-flow_detail--img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow.png" alt="矢印">
                     </div>
                 </div>
 
@@ -879,7 +889,7 @@
                         </p>
                         <span class="top-faq_qFlex--symbol"></span>
                     </div>
-                    <div class="top-faq_ans">
+                    <div class="top-faq_ans top-faq_ansOpen">
                         <div class="flex top-faq_aFlex">
                             <div class="top-faq_a">A</div>
                             <p class="top-faq_ansText">
@@ -986,14 +996,19 @@
                 </div>
             </div>
         </div>
+
     </section>
+
+
+
+
 
     <section class="top-column">
         <div class="container">
             <div class="label-blue">
                 <p>理学療法士の転職について<br class="display-visible_sp">詳しく知りたい</p>
             </div>
-            <h2 class="title-h2 top-column_tltle">
+            <h2 class="title-h2 top-column_title">
                 コラム最新記事一覧
             </h2>
 
@@ -1001,53 +1016,55 @@
                 <ul class="top-column_lists">
                     <div class="flex top-column_flex">
                         <?php
-                            if (get_query_var('paged')) { 
-                                // archive.phpやsingle.phpなどのテンプレートファイルじゃない 
-                                // ところでページネーションを作る場合
-                                $paged = get_query_var('paged');
+                        if (get_query_var('paged')) {
+                            // archive.phpやsingle.phpなどのテンプレートファイルじゃない 
+                            // ところでページネーションを作る場合
+                            $paged = get_query_var('paged');
+                        } elseif (get_query_var('page')) {
+                            // 固定ページでページネーションを作る場合
 
-                            } elseif (get_query_var('page')) {
-                                // 固定ページでページネーションを作る場合
+                            $paged = get_query_var('page');
+                        } else {
+                            // 上記以外（1ページの時） 
+                            $paged = 1;
+                        }
+                        $args = [
+                            'post_type' => 'post',
+                            'paged' => $paged,
+                            'order' => 'DESC',
+                            'posts_per_page' => 6,
+                        ];
+                        $WP_post = new WP_Query($args);
 
-                                $paged = get_query_var('page'); 
-                            } else { 
-                                // 上記以外（1ページの時） 
-                                $paged = 1; 
-                            }
-                            $args = [
-                                'post_type' => 'post',
-                                'paged' => $paged,
-                                'order' => 'DESC',
-                                'posts_per_page' => 6,
-                            ];
-                            $WP_post = new WP_Query($args);
-
-                            if ($WP_post->have_posts()) {
-                                while ($WP_post->have_posts()) {
-                                    $WP_post->the_post(); ?>
+                        if ($WP_post->have_posts()) {
+                            while ($WP_post->have_posts()) {
+                                $WP_post->the_post(); ?>
 
                         <li class="top-column_list">
                             <a class="top-column_link hover-opacity" href="<?php echo get_permalink(); ?>">
 
-                                <?php if ( has_post_thumbnail() ) : ?>
-                                <?php the_post_thumbnail( 'eyecatch' ); ?>
+                                <?php if (has_post_thumbnail()) : ?>
+                                <?php the_post_thumbnail('eyecatch'); ?>
                                 <?php else : ?>
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/column.png" alt="デフォルト画像">
-                                <?php endif ; ?>
+                                <div class="top-column_eyecatch">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/column.png" alt="デフォルト画像"
+                                        class="top-column_eyecatch">
+                                </div>
+                                <?php endif; ?>
                                 <div class="top-column_listDesc">
                                     <div class="flex top-column_reverse">
-                                        <div class="top-column_listFlex">
+                                        <div class="top-column_listFlex hover-opacity">
                                             <?php
-                                                $category = get_the_category();
-                                                if ( $category[0] ) {
-                                                    echo '<a href="' . get_category_link( $category[0]->term_id ) . '" class="top-column_category">' . $category[0]->cat_name . '</a>';
-                                                }
-                                            ?>
+                                                    $category = get_the_category();
+                                                    if ($category[0]) {
+                                                        echo '<a href="' . get_permalink() . '" class="top-column_category">' . $category[0]->cat_name . '</a>';
+                                                    }
+                                                    ?>
                                             <span class="top-column_listDate">
                                                 <?php echo get_the_date('Y.m.d'); ?>
                                             </span>
                                         </div>
-                                        <a href="<?php echo get_permalink(); ?>">
+                                        <a href="<?php echo get_permalink(); ?>" class="hover-opacity">
                                             <h3 class="top-column_listTitle">
                                                 <?php the_title(); ?>
                                             </h3>
@@ -1057,14 +1074,16 @@
                             </a>
                         </li>
                         <?php
-                                }
                             }
+                        }
                         ?>
                     </div>
                 </ul>
             </div>
         </div>
     </section>
+
+
 
 </main>
 
